@@ -1,0 +1,734 @@
+        /*=============================
+ Normal desktop :992px.
+ ===============================*/
+
+        @media (min-width: 992px) and (max-width: 1199.99px) {
+            .logo h1 a {
+                font-size: 30px;
+            }
+            .service-area-menu li a {
+                padding: 12px 60px;
+            }
+
+            .section-area h2 {
+                font-size: 35px;
+            }
+            .section-sub {
+                margin-top: 10px;
+            }
+            .couple-item {
+                padding-top: 0px;
+            }
+            .section-title h2:before {
+                width: 28%;
+                height: 17%;
+                top: -17px;
+                left: 36%;
+            }
+            .section-title h2:after {
+                width: 28%;
+                height: 17%;
+                bottom: -13px;
+                left: 36%;
+            }
+            .story-content-d:after {
+                top: 219px;
+            }
+            .story-content3:before {
+                left: -97px;
+            }
+            .story-content3:after {
+                left: -88px;
+                top: 53%;
+            }
+            .story-content-m:after {
+                left: -103px;
+                top: 171px;
+            }
+            .story-content-m:before {
+                content: "";
+                position: absolute;
+                left: -112px;
+                top: 46%;
+                width: 35px;
+            }
+            .story-content-m2:after {
+                top: 202px;
+            }
+            .story-area.story-area2 .story-content-d:after {
+                top: 219px;
+            }
+            .story-area.story-area2 .story-content3:before {
+                left: -97px;
+            }
+            .story-area.story-area2 .story-content3:after {
+                left: -88px;
+                top: 53%;
+            }
+            .story-area.story-area2 .story-content-m:after {
+                left: -103px;
+                top: 171px;
+            }
+            .story-area.story-area2 .story-content-m:before {
+                content: "";
+                position: absolute;
+                left: -112px;
+                top: 46%;
+                width: 35px;
+            }
+            .story-area.story-area2 .story-content-m2:after {
+                top: 202px;
+            }
+            .clock-area {
+                padding: 9px 5px 5px 20px;
+            }
+            .couple-content2 p {
+                padding: 1px 20px 6px;
+                font-size: 15px;
+                line-height: 20px;
+            }
+            .couple-text {
+                padding: 7px 0;
+            }
+            .section-title4 h2:before {
+                width: 46%;
+                height: 15%;
+                top: -13px;
+                left: 28%;
+            }
+            .section-title4 h2:after {
+                width: 46%;
+                bottom: -15px;
+                height: 15%;
+                left: 28%;
+            }
+            .service-area-menu li a {
+                border-right: none;
+            }
+        }
+/*================================
+ Normal desktop :991px.
+ =================================== */
+
+        @media (min-width: 768px) and (max-width: 991.98px) {
+           .slider-content2 {
+                margin-top: 60px;
+            }
+            .story-img img {
+                width: 100%;
+            }
+            .ceromony-img img {
+                width: 100%;
+            }
+            .couple-shape {
+                display: none;
+            }
+            .couple-single {
+                text-align: center;
+                margin-bottom: 30px;
+            }
+            .section-title h2:before {
+                width: 44%;
+                height: 22%;
+                top: -16px;
+                left: 29%;
+            }
+            .section-title h2:after {
+                width: 45%;
+                left: 29%;
+            }
+            .person-wrap {
+                margin-bottom: 30px;
+            }
+            .middle-bar {
+                display: none;
+            }
+            .story-content4:before {
+                display: none;
+            }
+
+            .service-area-menu li a {
+                text-align: center;
+                padding: 12px 30px;
+            }
+            .ceromony-content {
+                padding: 20px;
+            }
+            .count-down-section .count-down-clock {
+                margin-top: -5px;
+            }
+
+            .section-title2 h2:before {
+                width: 36%;
+                height: 60%;
+                top: 38px;
+                left: 33%;
+            }
+            .clock-area {
+                background: #9a8c40;
+                padding: 14px 5px 5px 13px;
+            }
+            .section-area h2 {
+                font-size: 34px;
+                text-align: center;
+                border: 1px solid #9a8c40;
+                padding: 10px 7px;
+                margin-left: 10px;
+                margin-top: 10px;
+                color: #333;
+            }
+            .couple-img {
+                width: 60%;
+                margin: auto;
+            }
+            .couple-area {
+                padding-bottom: 50px;
+            }
+            .logo {
+                margin-top: 8px;
+            }
+            .slicknav_btn {
+                margin-top: -52px;
+            }
+            .pt--90 {
+                padding-top: 58px;
+            }
+            .pb--100 {
+                padding-bottom: 80px;
+            }
+            .ptb--100 {
+                padding: 80px 0;
+            }
+            .pt--100 {
+                padding-top: 80px;
+            }
+            .pb--70 {
+                padding-bottom: 30px;
+            }
+            .pu-0 {
+                padding-top: 10px;
+            }
+            .pb--130 {
+                padding-bottom: 90px;
+            }
+            a.scrollup {
+                position: fixed;
+                right: 10px;
+                bottom: 27px;
+            }
+            .section-title4 h2:before {
+                width: 46%;
+                height: 15%;
+                top: -13px;
+                left: 28%;
+            }
+            .section-title4 h2:after {
+                bottom: -15px;
+                height: 15%;
+                left: 28%;
+            }
+            .couple-item {
+                padding-top: 0px;
+            }
+            .count-down-area.count-down-area-sub .count-down-section h2 {
+                font-size: 38px;
+            }
+            .count-down-area.count-down-area-sub .count-down-section h2>span {
+                font-size: 20px;
+                margin-top: 20px;
+            }
+            .service-area-menu li a {
+                border-right: none;
+            }
+            .slider-area .slider-content {
+                width: 297px;
+                height: 254px;
+                margin: auto;
+                margin-top: 50px;
+            }
+            .slider-content h4 {
+                font-size: 40px;
+            }
+            .slider-content p {
+                font-size: 20px;
+            }
+            .slider-content span {
+                font-size: 18px;
+                color: #fff;
+            }
+        }
+
+/* =============================
+extra small mobile 320px.
+================================*/
+
+        @media (max-width: 767px) {
+            .swiper-container {
+                height: 500px;
+            }
+            .slider-content2 {
+                margin-top: 60px;
+            }
+            .slider-content2 h4 {
+                font-size: 44px;
+                width: 274px;
+                height: 112px;
+                padding: 16px;
+                padding-top: 32px;
+            }
+            .slider-content {
+                width: 297px;
+                height: 254px;
+                margin: auto;
+            }
+            .slider-content h4 {
+                font-size: 40px;
+            }
+            .slider-content p {
+                font-size: 20px;
+            }
+            .slider-content span {
+                font-size: 18px;
+                color: #fff;
+            }
+            .slider-content2 p {
+                font-size: 18px;
+            }
+            .slider-content2 p {
+                font-size: 18px;
+                left: -63px;
+            }
+            .slider-content2 span {
+                left: 14%;
+                top: -12px;
+            }
+            .section-area h2 {
+                font-size: 27px;
+            }
+            .swiper-button-next {
+                display: none;
+            }
+            .swiper-button-prev {
+                display: none;
+            }
+
+            .middle-bar {
+                display: none;
+            }
+            .offer-counter {
+                display: block;
+            }
+            .story-content4:before {
+                display: none;
+            }
+            .section-title h2:before {
+                width: 60%;
+                height: 22%;
+                top: -13px;
+                left: 22%;
+            }
+            .section-title h2:after {
+                width: 60%;
+                height: 22%;
+                bottom: -15px;
+                left: 22%;
+            }
+            .content-sub {
+                padding: 50px 41px;
+            }
+            .couple-shape {
+                text-align: center;
+                padding-top: 0;
+            }
+            .couple-single {
+                margin-bottom: 30px;
+            }
+            .guest-wrap {
+                padding: 70px 15px;
+            }
+            .section-title h2 {
+                font-size: 30px;
+            }
+            .service-area-menu li a {
+                padding: 10px 25px;
+            }
+            .ceromony-content {
+                padding: 20px;
+            }
+            .content-sub h2 {
+                font-size: 49px;
+            }
+            .content-sub span {
+                font-size: 20px;
+            }
+            .story-content h2 {
+                font-size: 30px;
+            }
+            .count-down-section h2 {
+                text-align: center;
+                padding-bottom: 30px;
+            }
+            .gallery-menu button {
+                margin-top: 15px;
+            }
+            .section-title2 h2 {
+                font-size: 45px;
+            }
+            .section-title2 h2:before {
+                width: 68%;
+                height: 89%;
+                left: 17%;
+            }
+            .widget {
+                margin-top: 40px;
+            }
+            .welcome-content h2 {
+                font-size: 36px;
+            }
+            .welcome-content p {
+                padding: 15px 14px 20px;
+            }
+            .gallery-menu button {
+                padding: 5px 15px;
+            }
+
+            .story-content5::before {
+                display: none;
+            }
+            .story-content5::after {
+                display: none;
+            }
+            .couple-item {
+                padding-top: 0px;
+            }
+            .pb--100 {
+                padding-bottom: 70px;
+            }
+            .ptb--100 {
+                padding: 70px 0;
+            }
+            .pt--100 {
+                padding-top: 70px;
+            }
+            .pb--70 {
+                padding-bottom: 40px;
+            }
+            .md-0 {
+                margin-bottom: 0;
+            }
+            .owl-carousel .owl-item img {
+                width: 75%;
+            }
+            .couple-img {
+                text-align: center;
+            }
+
+            .pu-0 {
+                padding-top: 10px;
+            }
+            .person-title h3 {
+                padding: 5px 25px;
+                font-size: 30px;
+            }
+            .pb-40 {
+                padding-bottom: 40px;
+            }
+            .couple-shape img {
+                max-width: 40%;
+            }
+            .count-down-clock {
+                padding: 70px 0 40px;
+            }
+            .count-down-section #clock>div+div {
+                margin-left: 0;
+            }
+
+            .clock-area {
+                padding: 0 10px;
+            }
+            .count-down-section {
+                padding: 70px 0 40px;
+            }
+            .header-area {
+                top: -1px;
+            }
+            .logo h1 a {
+                font-size: 25px;
+            }
+            .logo {
+                margin-top: 8px;
+            }
+            .slicknav_btn {
+                margin-top: -48px;
+            }
+            .pt--90 {
+                padding-top: 49px;
+            }
+            .pb--130 {
+                padding-bottom: 90px;
+            }
+            .pb--30 {
+                padding-bottom: 0;
+            }
+            .header-area2 .logo h1 a {
+                font-size: 30px;
+            }
+            .person-btn ul li a {
+                padding: 10px 12px;
+                display: block;
+                font-size: 30px;
+            }
+            .content-sub:before {
+                left: -6px;
+                top: -5px;
+                width: 104%;
+                height: 105%;
+            }
+            a.scrollup {
+                position: fixed;
+                right: 5px;
+                bottom: 27px;
+            }
+            .count-down-area.count-down-area-sub .count-down-clock {
+                padding: 20px 0 10px;
+            }
+            .count-down-area.count-down-area-sub .count-down-section h2 {
+                font-size: 45px;
+            }
+            .count-down-area.count-down-area-sub .count-down-section h2>span {
+                font-size: 24px;
+            }
+            .section-title4 h2:before {
+                width: 69%;
+                height: 15%;
+                top: -13px;
+                left: 17%;
+            }
+            .section-title4 h2:after {
+                width: 69%;
+                height: 15%;
+                bottom: -15px;
+                left: 17%;
+            }
+            .crumbs-area {
+                padding: 85px 0px 30px;
+            }
+            .crumbs-content h2 {
+                font-size: 40px;
+            }
+            .blog-area {
+                padding: 70px 0px 60px;
+            }
+            .blg-content h2 {
+                font-size: 25px;
+            }
+            select.form-control:not([size]):not([multiple]) {
+                background: #fff url(../img/select-icon.png) no-repeat calc(100% - 5px) center
+            }
+            .section-title2.section-title3 h2::before {
+                width: 76%;
+                height: 47%;
+                bottom: -9px;
+                left: 14%;
+            }
+            .service-area-menu li a {
+                border-right: none;
+            }
+            .header-area.header-area-3 .logo h1 a {
+                font-size: 24px;
+                font-family: 'Great Vibes', cursive;
+                color: #fff;
+            }
+            .header-area.header-area-3 .slicknav_menu .slicknav_icon-bar {
+             background-color: #fff;
+            }
+        }
+        /* =============================
+extra small mobile 320px. end
+================================*/
+        /* small mobile :576px. */
+
+        @media only screen and (min-width: 480px) and (max-width: 767.98px) {
+            .couple-img {
+                text-align: center;
+            }
+            .section-area h2 {
+                font-size: 69px;
+            }
+            .slider-content2 h4 {
+                font-size: 55px;
+                width: 510px;
+                height: 158px;
+            }
+            .slider-content2 p {
+                left: -117px;
+            }
+            .slider-content2 span {
+                left: 23%;
+                top: -12px;
+            }
+            .couple-shape img {
+                max-width: 40%;
+            }
+            .story-content2:before {
+                display: none;
+            }
+            .story-content2:after {
+                display: none;
+            }
+            .count-down-section {
+                padding: 100px 0 70px;
+            }
+            .story-content h2 {
+                font-size: 40px;
+            }
+            .section-title h2 {
+                font-size: 50px;
+            }
+            .section-title h2:before {
+                width: 46%;
+                height: 16%;
+                top: -16px;
+                left: 29%;
+            }
+            .section-title h2:after {
+                width: 46%;
+                height: 16%;
+                bottom: -15px;
+                left: 29%;
+            }
+            .story-content-m:before {
+                display: none;
+            }
+            .story-content-m:after {
+                display: none;
+            }
+            .service-area-menu li a {
+                padding: 11px 6px;
+            }
+            .count-down-section h2 {
+                text-align: center;
+                padding-bottom: 0px;
+                font-size: 50px;
+            }
+            .count-down-section h2>span {
+                font-size: 24px;
+            }
+
+            .couple-img {
+                width: 60%;
+                margin: auto;
+            }
+            .section-area {
+                text-align: center;
+            }
+
+            .section-title2 h2:before {
+                width: 41%;
+                height: 68%;
+                left: 31%;
+            }
+
+        }
+
+
+@media only screen and (max-width: 767px) and (min-width: 320px) {
+    .story-icon,
+    .story-top,
+    .story-bottom,
+    .story .content-wrapper::before {
+        left: 35px
+    }
+
+    .story .item {
+        width: 100%
+    }
+
+    .story .item .story-content,
+    .story .item:nth-child(even) .story-content {
+        width: calc(100vw - 140px);
+        margin-left: 80px;
+    }
+
+    .story .story-content h2 {
+        font-size: 34px;
+    }
+
+    .lavelo-title h2,
+    .contact-title h2 {
+        font-size: 40px;
+    }
+
+    .fortfolio-filter button {
+        font-size: 18px;
+        margin-right: 0px;
+        margin-bottom: 5px;
+    }
+
+    .guest-wrap {
+        padding: 30px;
+    }
+
+    .story .item:nth-child(odd) {
+        float: none;
+    }
+
+    .story .item:nth-child(even) {
+        float: none;
+    }
+
+    .story .item:not(:first-child) {
+        margin-top: 30px;
+    }
+
+    .story .item:nth-child(even) .story-icon {
+        right: auto;
+        left: 35px;
+    }
+
+    .item:nth-child(odd) .story-content::before,
+    .item:nth-child(odd) .story-content::after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        right: 100%;
+        left: -30px;
+        margin-top: -7px;
+        border: 15px solid transparent;
+        border-color: transparent;
+        border-right-color: #f7f7f7;
+    }
+
+    .item:nth-child(odd) .story-content::after {
+        margin-top: -4px;
+        border: 12px solid transparent;
+        border-right-color: #FFF;
+        border-left: 0
+    }
+
+    .item:nth-child(odd) .story-content:hover:after {
+        border-right-color: #fff7f7;
+        border-left: 0
+    }
+
+    .couple-shape {
+        width: 100%;
+        text-align: center;
+        margin-top: 16px;
+        padding-top: 0;
+        margin-bottom: 16px;
+    }
+
+    .story .item .story-content {
+        padding: 15px;
+    }
+
+
+}
+@media only screen and (max-width: 766.99px) and (min-width: 620px){
+    .story .item .story-content, .story .item:nth-child(even) .story-content {
+    width: calc(76vw - 140px);
+    margin-left: 80px;
+}
+
+}

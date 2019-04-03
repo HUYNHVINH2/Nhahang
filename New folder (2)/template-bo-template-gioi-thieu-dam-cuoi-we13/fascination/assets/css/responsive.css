@@ -1,0 +1,483 @@
+    /* (1366x768) WXGA Display */
+
+@media screen and (min-width: 1366px) and (max-width: 1919px) {
+
+}
+/* Normal desktop :992px. */
+
+@media (min-width: 991.98px) and (max-width: 1197px) {
+.main-menu nav ul li a {
+    padding: 30px 10px;
+
+}
+.logo h1 a {
+    font-size: 29px;
+}
+.main-menu .submenu2 {
+    left: -160px;
+    top: 88px;
+
+}
+.story-content p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #909090;
+    padding: 0px 0;
+}
+.story-content h3:after {
+    position: absolute;
+    content: "01";
+    left: 5px;
+    top: -9px;
+    width: 70px;
+    height: 3px;
+    font-size: 48px;
+    color:
+}
+.story-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 45px 0;
+}
+.story-content h4 {
+    padding: 10px 0;
+}
+.story-content2 h3:after {
+    left: 78%;
+}
+.rsvp-area .rsvp-sub {
+    padding: 90px 21px 80px;
+
+}
+}
+
+/*================================
+ Normal desktop :991px.
+ =================================== */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+.section-title h2:before {
+    position: absolute;
+    content: "";
+    width: 30%;
+    height: 122%;
+    top: -90px;
+    left: 36%;
+}
+
+
+.blog-sidebar .tag-widget ul li a {
+    padding: 4px 11px;
+}
+h3.widget_title {
+    font-size: 20px;
+    margin-top: 30px;
+}
+.pl-70{
+    padding-left: 15px;
+}
+.blog-single-section .more-posts .previous-post {
+ border-right: none;
+}
+
+.logo {
+    margin-top: 0;
+    padding: 15px 0;
+}
+.slicknav_btn {
+    margin-top: -63px;
+}
+.story-content p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #909090;
+    padding: 6px 0;
+}
+.story-content h3:after {
+    position: absolute;
+    top: -15px;
+    font-size: 58px;
+
+}
+.form-check-label {
+    margin-right: 0px;
+}/*
+.section-title h2:before {
+    position: absolute;
+    content: "";
+    width: 29%;
+    height: 96%;
+    top: -90px;
+    left: 36%;
+    background: url(../img/section/1.png) no-repeat center center / cover;
+}*/
+.rsvp-area .rsvp-sub {
+    padding: 90px 40px 80px;
+}
+}
+/* small mobile :576px. */
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .count-down-section #clock>div {
+    flex-basis: calc(100% * (1/2) - 15px);
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-top:7px;
+}
+.form-check-label {
+    margin-right: -3px;
+}
+
+.gallery-menu button {
+    margin-right: -7px;
+}
+.story-img:before{
+    display: none;
+}
+.section-title h2:before {
+   width: 27%;
+    height: 108%;
+    left: 38%;;
+}
+.middle-bar {
+    position: absolute;
+    left: 48%;
+    top: 20%;
+    width: 1%;
+}
+.place-single{
+    margin-bottom: 30px;
+}
+.heading{
+    margin-bottom: 30px;
+}
+.logo {
+    margin-top: 0;
+    padding: 15px 0;
+}
+.slicknav_btn {
+    margin-top: -63px;
+}
+.section-title4 h2{
+    font-size: 38px;
+    font-family: 'Prata', serif;
+    position: relative;
+    padding: 20px 0 10px;
+}
+.rsvp-area .rsvp-sub {
+    padding: 90px 56px 80px;
+
+}
+.rsvp-area .rsvp-sub p {
+    font-size: 16px;
+}
+.pl-70{
+    padding-left: 15px;
+}
+.blog-single-section .more-posts .previous-post, .blog-single-section .more-posts .next-post {
+    margin-bottom:0px;
+    border-bottom: none;
+}
+h3.widget_title2 {
+    margin-top: 30px;
+}
+
+}
+/* extra small mobile 320px. */
+
+@media (max-width: 575px) {
+.middle-bar{
+display: none;
+
+}
+.slider-circle2 {
+    width: 200px;
+    height: 200px;
+}
+.slider-circle .circle-inner2:after {
+    width: 228px;
+    left:-11%;
+}
+.slider-circle .circle-inner2:before {
+    width: 228px;
+    right: -21px;
+
+}
+.slider-circle2:before {
+    left: -40%;
+    top: 17px;
+    width: 228px;
+}
+.slider-circle2:after {
+    left: 26%;
+    bottom: 17px;
+    width: 228px;
+}
+.story-img:before {
+ display: none;
+}
+.section-title h2:before {
+    width: 62%;
+    height: 124%;
+    top: -90px;
+    left: 14%;
+}
+.section-title h2 {
+    font-size: 35px;
+}
+.slide-text p {
+    padding-right: 0px;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.slide-text2 p {
+    padding-right: 0px;
+    font-size: 14px;
+}
+.swiper-container{
+    height: 600px;
+}
+.slide-text {
+    bottom: 44px;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    max-width: 300px;
+    left: -3px;
+    margin: auto;
+    padding: 10px 0;
+}
+.slide-text2 {
+    bottom: -190px;
+    max-width: 276px;
+   padding: 20px 0;
+}
+.slide-text2 p {
+    margin-bottom: 5px;
+}
+.slide-title h2 {
+font-size: 30px;
+}
+.slide-title {
+    right: 32px;
+}
+
+.slide-title2 {
+    right: 4px;
+}
+.logo h1 a {
+    font-size: 24px;
+}
+.logo {
+    margin-top: 0;
+    padding: 10px;
+}
+.slicknav_btn {
+    margin-top: -52px;
+}
+.section-title span {
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+.section-title span:before {
+    left: -16%;
+    width: 20px;
+}
+.section-title span:after {
+    left: 102%;
+    width: 20px;
+}
+.section-title-g span:before {
+    left: -19%;
+    width: 20px;
+}
+.heading {
+    margin-bottom: 30px;
+}
+.section-title4 h2{
+  font-size: 22px;
+}
+.place-single{
+    margin-bottom: 30px;
+}
+.gallery-menu button {
+    margin-right: -3px;
+}
+.sweet-content h2 {
+    font-size: 30px;
+    line-height: 45px;
+}
+.sweet-content {
+    max-width: 700px;
+    margin: auto;
+    padding: 100px 0;
+}
+.count-down-section p {
+    text-align: center;
+    font-size: 18px;
+
+}
+.couplep {
+    padding:0;
+    padding-bottom: 30px;
+}
+.coupler {
+    padding: 0;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+ display: none;
+}
+.blog-img .owl-nav div {
+    left: -12px;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+
+}
+.blog-img .owl-nav div.owl-next {
+    right: -14px;
+    left: auto;
+}
+.blg-thumb .post-meta li{
+    float: none;
+}
+.blg-thumb .post-meta > li + li {
+    padding-left: 0px;
+    position: relative;
+}
+.blg-thumb .post-meta > li + li:before{
+    display: none;
+}
+.blog-sidebar{
+    margin-top: 30px;
+}
+.footer-area {
+    padding: 100px 0;
+}
+.count-down-section #clock > div {
+  background:#e49497;
+  width: 23.5%;
+  float: left;
+  text-align: center;
+  padding: 20px 30px;
+}
+
+#clock .box > div:first-child{
+    font-size: 36px;
+    font-family: 'Prata', serif;
+    font-weight:400;
+    margin-bottom: 10px;
+}
+#clock .box > span:last-child{
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top: 10px;
+}
+.count-down-section #clock>div {
+        flex-basis: calc(100% * (1/2) - 15px);
+        margin-bottom: 5px;
+        margin-left: 5px;
+        margin-top: 5px;
+        padding: 40px 20px;
+    }
+.giftl {
+     padding: 10px;
+}
+.gift-img2{
+    border-bottom:1px solid #ededed;
+}
+.gift-img3{
+    border-right: 1px solid #ededed;
+}
+.pt--150{
+    padding-top: 160px;
+}
+.pb--100{
+    padding-bottom: 70px;
+}
+.mb-0{
+    margin-bottom: 0px;
+}
+.story-area.story-area2 .story-item p {
+    text-align: center;
+    font-size: 16px;
+    color: #949494;
+    padding-bottom: 70px;
+}
+.section-title {
+    margin-bottom: 40px;
+}
+.story-content h3:after {
+    left: -6px;
+    top: -6px;
+    font-size: 48px;
+
+}
+.ptb--100{
+    padding: 70px 0;
+}
+.count-down-section h2>span{
+    padding-bottom: 0;
+}
+.count-down-section p{
+    padding-top: 40px;
+}
+.story-content2 h3:after {
+    left:78%;
+}
+.mobile-sticky-menu {
+    height: 56px;
+
+    }
+ .content-sub h2 {
+    font-size: 45px;
+}
+.pl-70{
+    padding-left: 15px;
+}
+.blog-single-section .more-posts .previous-post, .blog-single-section .more-posts .next-post {
+    margin-bottom:0px;
+    border-bottom: none;
+}
+}
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 575px) {
+    .count-down-section #clock>div {
+        flex-basis: calc(100% * (1/2) - 15px);
+        margin-bottom: 5px;
+        margin-left: 5px;
+        margin-top: 7px;
+    }
+    .swiper-container {
+    height: 800px;
+}
+.section-title h2:before {
+width: 37%;
+    height: 130%;
+    top: -88px;
+    left: 34%;
+}
+.rsvp-area .rsvp-sub {
+    background: #fff;
+    padding: 90px 43px 80px;
+    text-align: center;
+    position: relative;
+}
+.rsvp-area .rsvp-sub p {
+    font-size: 16px;
+}
+.couple-img{
+    text-align: center;
+}
+.pl-70 {
+    padding-left: 15px;
+}
+
+}

@@ -1,0 +1,767 @@
+
+/*For bigger screen then normal 960px desktop*/
+@media (min-width: 1200px) {
+
+}
+
+@media only screen and (max-width: 1199px) {
+
+/*  dropdown menu*/
+ul.home-page {
+  top: 59px;
+}
+ul.single-page {
+  top: 59px;
+}
+ul.about-page {
+  top: 59px;
+}
+ul.ourStory-page {
+  top: 59px;
+}
+ul.blog-page {
+  top: 59px;
+}
+
+.the-heart-date-couuntdown {
+  width: 80%;
+}
+.the-heart-wdding-venu-content {
+  width: calc(100% - 0px);
+}
+.the-heart-attending-content {
+  width: 100%;
+}
+.the-heart-attending-form {
+  width: 100%;
+}
+.the-heart-welcome-tbl-c {
+  width: 80%;
+}
+
+}
+
+/*For Tablet Layout*/
+@media (min-width: 768px) and (max-width: 991px) {
+
+/*  dropdown menu*/
+ul.dropdown {
+  top: 74px;
+}
+ul.dropdown li a {
+  padding: 15px 10px !important;
+  margin: 0 !important;
+}
+
+.the-heart-main-meun ul li a {
+  font-size: 0.838em;
+  margin: 0 3px;
+  padding: 29px 0;
+}
+.the-heart-timer-single {
+  margin: 0 30px 0 0;
+}
+.the-heart-date-couuntdown {
+  width: 100%;
+}
+.the-heart-welcome-content h1 {
+  font-size: 5em;
+}
+.the-heart-single-slider {
+  height: 750px;
+}
+.the-heart-timer-single::before {
+  left: 105%;
+}
+.the-heart-welcome-section {
+  height: 750px;
+}
+.the-heart-welcome-tbl {
+  height: 750px;
+}
+.the-heart-introduction-section.section-padding {
+  padding: 100px 0 0;
+}
+.the-heart-intruduction-content-img img {
+  height: 309px;
+  width: 309px;
+}
+.the-heart-memoragble-days-content h2 {
+  font-size: 2.3em;
+}
+.the-heart-memoragble-days-content p {
+  font-size: .938em;
+}
+.the-heart-wedding-venue-section {
+  padding: 150px 0;
+}
+.the-heart-wdding-venu-content {
+  width: calc(100% - 140px);
+  margin-bottom: 40px;
+}
+.the-heart-attending-content {
+  width: 100%;
+}
+.the-heart-attending-form {
+  padding: 70px 45px;
+  width: 100%;
+}
+.the-heart-lovely-gallery-section {
+  padding: 140px 0;
+}
+.the-heart-single-journal {
+  margin-bottom: 50px;
+}
+.the-heart-btn-holder {
+  margin-top: 50px;
+}
+.the-heart-footer-section {
+  padding: 200px 0;
+}
+.the-heart-inner-welcome-section > div > div > div > div {
+  height: 400px;
+}
+.the-heart-tbl-c {
+  top: 58%;
+}
+.the-heart-welcome-tbl-c {
+  width: 65%;
+}
+.the-heart-attending-content h2 {
+  font-size: 2em;
+}
+.the-heart-attending-content p {
+  font-size: 0.775em;
+}
+.the-heart-btn.simple-btn {
+  font-size: 1em;
+}
+
+/*accommodation.html*/
+
+.the-heart-accommodation-section.section-padding {
+  padding: 100px 0 0;
+}
+.the-heart-accommodation-post-bg {
+  height: 500px;
+}
+.the-heart-single-accommodation {
+  margin-bottom: 50px;
+}
+.the-heart-accommodation-post-bg {
+  height: 400px;
+}
+
+/*bridemaid.html*/
+
+.the-heart-groomsman-section.section-padding {
+  padding: 100px 0 50px;
+}
+/*.the-heart-single-groomsman {
+  width: 49%;
+}*/
+
+/*engagement-stories.html*/
+
+.the-heart-timeline-section {
+  margin:50px 0;
+}
+.the-heart-engagement-section .the-heart-single-timeline-content {
+  margin-bottom: 100px;
+}
+.section-padding {
+  padding: 70px 0;
+}
+
+/*journal-single.html*/
+
+.the-heart-single-blog-post-section.section-padding {
+  padding: 100px 0;
+}
+.the-heart-blog-single-post-content blockquote {
+  width: 100%;
+}
+.alignright {
+  width: 100%;
+  padding-left: 0;
+}
+.the-heart-single-comment.the-heart-comment-reply {
+  padding-right: 0;
+  width: calc(100% - 80px);
+}
+.the-heart-blog-post-image {
+  height: 400px;
+}
+
+/*journal-with-sidebar.html*/
+
+.the-heart-jurnal-sidebar #the-heart-journal-grid {
+  width: 100%;
+}
+.the-heart-sidebar {
+  width: 100%;
+  text-align: center;
+  margin-top: 60px;
+}
+
+/*rsvp.html*/
+
+.the-heart-inner-attending-form {
+  width: calc(80% - 70px);
+}
+
+/*timeline.html*/
+
+.the-heart-single-timeline-content {
+  margin-bottom: 100px;
+  padding: 0;
+}
+
+}
+
+/*For Wide Mobile Layout*/
+ @media (max-width: 767px) {
+
+/*Counter*/
+.dash .digit {
+  font-size: 2em;
+  height: 25px;
+}
+.the-heart-single-counter h3 {
+  font-size: 0.9em;
+}
+
+ /* dropdown menu*/
+
+ul.dropdown {
+  background-color: transparent;
+  box-shadow: none;
+  left: 0;
+  opacity: 1;
+  padding: 10px 25px;
+  position: static;
+  top: 79px;
+  transform: rotateX(0deg);
+  visibility: visible;
+  width: 100%;
+}
+
+.menu-toggle {
+  cursor: pointer;
+  display: block;
+  font-size: 30px;
+  position: absolute;
+  right: 30px;
+  top: 24px;
+  transition: all 0.4s;
+}
+
+.the-heart-main-meun {
+  background-color: rgba(255, 255, 255, 0.9);
+  display: none;
+  left: 0;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  overflow: auto;
+  height: 350px;
+  top: 0px;
+
+}
+header.the-heart-menu-and-logo-section.sticky-menu .the-heart-main-meun ul li a {
+  padding: 16px 10px;
+}
+.sticky-menu .menu-toggle {
+  top: 12px;
+}
+.the-heart-main-meun ul li {
+  display: block;
+}
+.the-heart-main-meun ul li a {
+  margin: 0;
+  padding: 16px 10px;
+  text-align: left;
+}
+.the-heart-main-meun i {
+  transform: rotate(0deg);
+}
+header.the-heart-menu-and-logo-section.sticky-menu .the-heart-main-meun{
+  top:0px;
+}
+.the-heart-welcome-content h1 {
+  font-size: 3.667em;
+}
+.the-heart-welcome-tbl-c {
+  width: 100%;
+}
+.the-heart-slider .owl-next {
+  display: none;;
+}
+.the-heart-slider .owl-prev {
+  display: none;;
+}
+.the-heart-timer {
+  height: 100px;
+  width: 100px;
+}
+.the-heart-date-couuntdown {
+  width: 100%;
+}
+.the-heart-timer-single {
+  margin: 0 10px 0 0;
+  padding: 0 10px 0 0;
+}
+.the-heart-timer-single::before {
+  left: 93%;
+}
+.the-heart-single-journal {
+  margin-bottom: 50px;
+}
+.the-heart-welcome-section {
+  height: 650px;
+}
+.the-heart-single-slider {
+  height: 650px;
+}
+.the-heart-welcome-tbl {
+  height: 650px;
+}
+.the-heart-single-blog-post-section .the-heart-intruduction-content-img img {
+  height: 100%;
+  width: 100%;
+}
+.the-heart-intruduction-content-txt p {
+  font-size: .838em;
+}
+.the-heart-intruduction-content-txt h3 {
+  font-size: 1.667em;
+}
+.the-heart-single-introduction{
+  margin-bottom: 50px;
+}
+.the-heart-introduction-section.section-padding {
+  padding: 50px 0 0;
+}
+.the-heart-memoragble-days-section.section-padding {
+  padding: 50px 0 0;
+}
+.the-heart-memoragble-days-content-inner {
+  width: 100%;
+}
+.the-heart-attending-form input[type="text"] {
+  width: 90%;
+}
+.the-heart-memoragble-days-content h2 {
+  font-size: 1.667em;
+}
+.the-heart-memoragble-days-content p {
+  font-size: .938em;
+}
+.the-heart-wedding-venue-section {
+  padding: 100px 0;
+}
+.the-heart-wdding-venu-content {
+  margin-bottom: 40px;
+}
+.the-heart-attending-content {
+  display: block;
+  height: 550px !important;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.the-heart-attending-content-inner {
+  display: block;
+  padding-top: 80px;
+}
+.the-heart-lovely-gallery-section {
+  padding: 100px 0;
+}
+.the-heart-footer-section {
+  padding: 150px 0;
+}
+.the-heart-inner-welcome-section >div > div > div > div {
+  height: 400px;
+}
+.the-heart-inner-welcome-section .the-heart-tbl-c {
+  top: 62%;
+  width: 100%;
+}
+.the-heart-welcome-floral-bg::after {
+  display: none;
+}
+.the-heart-welcome-floral-bg::before, .the-heart-welcome-floral-bg::after {
+  display: none;
+}
+.the-heart-inner-welcome-content h1 {
+  font-size: 3em;
+}
+
+/*accommodation.html*/
+
+.the-heart-accommodation-section.section-padding {
+  padding: 50px 0 0;
+}
+.the-heart-single-accommodation {
+  margin-bottom: 50px;
+}
+.the-heart-accommodation-post-bg {
+  height: 300px;
+}
+.the-heart-gift-registry-section.section-padding {
+  padding: 50px 0;
+}
+
+/*bridemaid.html*/
+
+.the-heart-groomsman-section.section-padding {
+  padding: 50px 0;
+}
+.the-heart-single-groomsman img {
+  width: 100%;
+}
+/*.the-heart-single-groomsman {
+  width: 49%;
+}
+*/
+/*engagement-stories.html*/
+.the-heart-timeline-section {
+  margin: 50px 0;
+}
+.the-heart-timelinne-heading h2 {
+  font-size: 2em;
+}
+.the-heart-timeline-content p {
+  font-size: .938em;
+}
+.the-heart-engagement-section .the-heart-single-timeline-content {
+  margin-bottom: 50px;
+  padding: 0 0 50px;
+}
+
+/*her-story.html*/
+
+.section-padding {
+  padding: 50px 0;
+}
+.the-heart-single-blog-post-section .the-heart-spilt-container {
+  width: 100%;
+}
+.the-heart-intruduction-content-img img {
+  width: 100%;
+  height: 100%;
+}
+
+/*journal-single.html*/
+
+.the-heart-single-blog-post-section.section-padding {
+  padding: 50px 0;
+}
+.the-heart-married-time h2 {
+  font-size: 2.2em;
+}
+.the-heart-single-blog-post-section .the-heart-spilt-container {
+  width: 50%;
+}
+.the-heart-blog-single-post-content blockquote {
+  width: 100%;
+}
+.alignright {
+  padding-left: 0;
+  width: 100%;
+}
+.the-heart-simple-lsit {
+  padding: 0 0 0 0px;
+}
+.the-heart-like-and-comment li {
+  font-size: 1.1em;
+  margin-right: 10px;
+}
+.the-heart-single-blog-post-section .the-heart-commentor-img figure img {
+  height: 100%;
+  width: 100%;
+}
+.the-heart-commentor-comment p {
+  font-size: 0.838em;
+}
+.the-heart-single-comment.the-heart-comment-reply {
+  padding-right: 0;
+  width: calc(100% - 50px);
+}
+/*journal-with-sidebar.html*/
+
+.the-heart-jurnal-sidebar #the-heart-journal-grid {
+  width: 100%;
+  padding: 0;
+}
+.the-heart-sidebar {
+  width: 100%;
+  text-align: center;
+  margin-top: 60px;
+}
+.the-heart-wedding-jurnal-footer h5 {
+  font-size: 1em;
+}
+.the-heart-wedding-jurnal-footer h6 {
+  font-size: 0.938em;
+}
+.the-heart-wedding-jurnal-footer p {
+  font-size: .838em;
+}
+.the-heart-sidebar-single-element a p {
+  font-size: 0.938em;
+}
+.the-heart-btn.pink-btn {
+  width: 165px;
+}
+
+/*rsvp.html*/
+
+.the-heart-inner-attending-form {
+  width: 100%;
+}
+
+/*timeline.html*/
+
+.the-heart-timelinne-heading {
+  margin-bottom: 40px;
+}
+.the-heart-single-timeline-content {
+  margin-bottom: 50px;
+  padding: 0;
+}
+
+}
+
+/*For 320-384px up Mobile Layout*/
+@media (max-width: 479px) {
+/*Counter*/
+.dash {
+    margin-top: 14px;
+}
+
+/*Banner*/
+.the-heart-welcome-content h1 {
+  font-size: 2.667em;
+}
+.the-heart-inner-welcome-section >div > div > div > div {
+  height: 300px;
+}
+.the-heart-time {
+  font-size: 1em;
+}
+.the-heart-timer {
+  height: 80px;
+  width: 80px;
+}
+.the-heart-timer-single::before {
+  display: none;
+}
+.the-heart-timer-single {
+  margin: 0;
+  padding: 0 10px 0 0;
+}
+.the-heart-introduction-section.section-padding {
+  text-align: center;
+}
+.the-heart-spilt-container {
+  width: 100%;
+}
+.the-heart-intruduction-content-img img {
+  display: none;
+}
+.the-heart-single-introduction:nth-child(2n) .the-heart-intruduction-content-txt {
+  text-align: center;
+}
+.the-heart-section-heading h2 {
+  font-size: 2em;
+}
+.the-heart-memoragble-days-img img {
+  display: none;
+}
+.the-heart-wdding-venu-content h2 {
+  font-size: 2em;
+}
+.the-heart-wedding-palace-address h4 {
+  font-size: 2em;
+}
+.the-heart-wdding-venu-content p {
+  font-size: 0.838em;
+}
+.the-heart-wdding-venu-content {
+  padding: 40px 10px;
+}
+.the-heart-you-are-attending-section.section-padding {
+  text-align: center;
+}
+.the-heart-attending-content h2 {
+  font-size: 1.5em;
+}
+.the-heart-attending-content p {
+  font-size: 0.7em;
+}
+.the-heart-btn.simple-btn {
+  font-size: 1em;
+}
+.the-heart-attending-form {
+  padding: 50px 10px;
+}
+.the-heart-attending-form input[type="submit"] {
+  font-size: 1em;
+  width: 185px;
+}
+.the-heart-wedding-jurnal-section.section-padding {
+  text-align: center;
+}
+.the-heart-wedding-jurnal-footer h5 {
+  font-size: 1em;
+}
+.the-heart-wedding-jurnal-footer h6 {
+  font-size: .938em;
+}
+.the-heart-btn-holder {
+  margin-top: 20px;
+}
+.the-heart-btn.pink-btn {
+  width: 175px;
+}
+.the-heart-footer-content h2 {
+  font-size: 3em;
+}
+.the-heart-footer-section {
+  padding: 100px 0;
+}
+/*.the-heart-attending-content-inner {
+  display: block;
+}*/
+.the-heart-inner-welcome-section .the-heart-tbl-c {
+  top: 65%;
+}
+/*accommodation.html*/
+
+.the-heart-inner-welcome-content h1 {
+  font-size: 2.5em;
+}
+.the-heart-single-accommodation {
+  text-align: center;
+}
+.the-heart-accommodation-content p {
+  margin: 0;
+  font-size: .938em;
+}
+.the-heart-accommodation-post-bg {
+  height: 200px;
+}
+
+/*bridemaid.html*/
+
+/*.the-heart-single-groomsman {
+  width: 100%;
+}*/
+.the-heart-gift-registy-gallery.owl-carousel .owl-dot {
+  margin-right: 5px;
+}
+.the-heart-gift-registy-gallery .owl-dot {
+  margin-top: 5px;
+}
+
+/*her-story.html*/
+
+.section-padding {
+  text-align: center;
+}
+.the-heart-story-content p {
+  font-size: .938em;
+}
+
+/*journal-single.html*/
+
+.the-heart-married-time h2 {
+  font-size: 1.4em;
+}
+.the-heart-single-blog-post-section .the-heart-spilt-container {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.the-heart-single-post-wraper {
+  margin-top: 25px;
+}
+.the-heart-blog-single-post-content p {
+  font-size: 0.938em;;
+}
+.the-heart-simple-lsit li {
+  font-size: 0.938em;
+  padding-left: 18px;
+}
+.the-heart-social-list-and-like-corner {
+  margin-top: 50px;
+}
+.text-left {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.text-right {
+  text-align: center;
+}
+.the-heart-commentor-comment {
+  width: 100%;
+}
+.the-heart-commentor-img {
+  float: none;
+  margin: 0 auto 30px;
+  width: 40%;
+}
+.the-heart-single-comment.the-heart-comment-reply {
+  width: 100%;
+}
+.the-heart-comment-reply .the-heart-commentor-img {
+  width: 30%;
+}
+.the-heart-comment-form input:not([type="submit"]) {
+  width: 100%;
+}
+.the-heart-comment-form textarea {
+  height: 150px;
+  width: 100%;
+}
+
+/*journal-with-sidebar.html*/
+
+.the-heart-sidebar-single-element a p {
+  font-size: 0.838em;
+}
+.the-heart-social-list ul li a {
+  width: 120px;
+  font-size: .838em;
+}
+
+/*rsvp.html*/
+
+.the-heart-attending-content-inner-2 {
+  margin-bottom: 30px;
+}
+.the-heart-attending-content-inner-2 h2 {
+  font-size: 1.667em;
+}
+.the-heart-attending-content-inner-2 p {
+  margin: 0 0 20px;
+  font-size: .838em;
+}
+.the-heart-attending-content-inner-2 h5 {
+  font-size: .938em;
+}
+.the-heart-attending-form-2 label {
+  font-size: 0.938em;
+}
+.the-heart-attending-form-2 select#the_heart_attending_event {
+  font-size: 0.838em;
+}
+.the-heart-attending-form-2 {
+  padding: 25px;
+}
+.the-heart-attending-form-2 input[type="submit"] {
+  font-size: .938em;
+  width: 190px;
+}
+
+}

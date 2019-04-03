@@ -1,0 +1,311 @@
+@media (max-width: 1199px) {
+
+.main-menu nav ul li a {
+  padding: 20px 15px;
+}
+.fixed-menu .main-menu nav ul li a {
+  padding: 16px 15px;
+}
+.right-form-reservation {
+  margin-top: 10px;
+}
+
+}
+
+
+@media (min-width: 1025px) {
+
+.main-menu {
+  display: block !important;
+}
+
+}
+ 
+/* Tablet desktop :768px. */
+@media (max-width: 1024px) {
+
+.right-testimonial-data {
+  float: none;
+  overflow: hidden;
+  padding: 50px 30px;
+  width: 100%;
+}
+.left-testimonial-thumb {
+  display: none;
+}
+#pixiefy-wedz-wedding-testimonial .wedz-counter-main-content .single-counter-bottom:nth-child(2) {
+  border-right: 0 solid;
+}
+.single-counter-bottom {
+  margin: 10px 0;
+}
+#pixiefy-wedz-wedding-testimonial .wedz-counter-main-content {
+  margin-top: 40px;
+}
+.left-reservation-header {
+  float: none;
+  margin-right: 0;
+  width: 100%;
+  text-align: center;
+}
+.left-reservation-header {
+  float: none;
+  margin-right: 0;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 25px;
+}
+.right-form-reservation {
+  float: none;
+  overflow: hidden;
+  width: 100%;
+}
+.right-testimonial-data header {
+  padding-bottom: 28px;
+}
+.single-wedz-counter {
+  margin: 25px 0;
+}
+.couple-parent-tagline h6 {
+  font-size: 1.2em;
+  margin: 0;
+  padding: 6px 10px;
+}
+.wedding-ceremony-main-content {
+  width: 53%;
+}
+.wedz-tree {
+  bottom: 0;
+  position: absolute;
+  width: 42%;
+}
+.main-menu {
+  background-color: #f0394d;
+  display: none;
+  max-height: calc(85vh - 150px);
+  position: absolute;
+  right: 0;
+  text-align: right;
+  top: 45px;
+  width: 200px;
+  overflow-y:scroll;
+  z-index: 99;
+  padding-right: 3px;
+}
+.main-menu nav ul li {
+  display: block;
+}
+.fixed-menu .main-menu nav ul li a {
+  padding: 8px 15px;
+}
+.main-menu nav ul li a {
+  background-color: #f0394d;
+  display: block;
+  padding: 8px 15px;
+  width: 100%;
+}
+button.responsive-trigger {
+  display: block;
+}
+
+
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+#pixiefy-wedz-wedding-ceremony::after {
+  opacity: 0.89;
+}
+.wedz-tree img {
+  opacity: 0.3;
+}
+.overflowScroll {
+  overflow: scroll;
+  height: 200px;
+}
+.wedz-section-header {
+  padding: 20px 0 30px;
+  text-align: center;
+}
+.ch-grid li {
+  display: block;
+  height: 220px;
+  margin: auto;
+  position: relative;
+  width: 220px;
+}
+.ch-grid li:first-child {
+  right: 0;
+  margin-bottom: 25px;
+}
+.ch-grid li:last-child {
+  left: 0;
+}
+.ch-grid {
+  background-image: none;
+}
+#pixiefy-wedz-counter.section-padding {
+  padding-bottom: 70px;
+  padding-top: 70px;
+}
+.counter-end-tagline {
+  margin-top: 50px;
+}
+.single-wedz-counter {
+  margin: 20px 0;
+}
+.single-parents-thumb {
+  padding-left: 0;
+  padding-right: 0;
+}
+.parents-thumb {
+  width: 100%;
+}
+.single-couple-parents {
+  padding: 20px 0;
+}
+.couple-parent-tagline h6 {
+  font-size: 2em;
+  line-height: 1;
+  margin: 0;
+  padding: 12px 10px 6px;
+}
+.parents-list-area {
+  margin-bottom: 60px;
+  overflow: hidden;
+  padding-top: 25px;
+}
+.single-popup-details {
+  width: 95%;
+}
+.single-popup-text {
+  padding: 21px 14px 20px;
+}
+.wedding-ceremony-main-content {
+  position: relative;
+  width: 100%;
+  z-index: 3;
+}
+.wedz-tree {
+  bottom: 0;
+  position: absolute;
+  right: 5px;
+  width: 60%;
+}
+.gift-reg-company-logo {
+  margin: 60px auto auto;
+  width: 98%;
+}
+.gift-registration-main-content h2 {
+  font-size: 2em;
+  line-height: 1.3;
+}
+#pixiefy-wedz-gift-registration {
+  padding-bottom: 80px;
+  padding-top: 80px;
+}
+.gallery-thumb-wed-party ul li {
+  display: block;
+  margin-bottom: 15px;
+  margin-right: 0;
+  width: 100%;
+}
+.wedz-testimonial-main-content {
+  padding: 0 2%;
+}
+#wedm {
+  height: 300px;
+}
+.nivo-lightbox-theme-default .nivo-lightbox-ajax, .nivo-lightbox-theme-default .nivo-lightbox-inline {
+  padding: 10px !important;
+}
+.single-parents-thumb.reverse-parents-thumb {
+  padding-left: 0;
+  padding-right: 0;
+}
+#pixiefy-wedz-wedding-testimonial .wedz-counter-main-content > div > div {
+  border-right: 0px solid #fff;
+}
+.single-counter-bottom {
+  border-bottom: 1px solid;
+}
+.single-counter-bottom:last-child {
+  border-bottom: 0px solid;
+}
+.single-form-item {
+  float: none;
+  margin-right: 0;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.footer-main-content {
+  background-size: 89% auto;
+  height: 219px;
+  width: 70%;
+}
+.single-form-item.guest-item {
+  width: 100%;
+}
+#pixiefy-wedz-footer-section {
+  padding: 100px 0;
+}
+.stick-logo {
+  width: 75px;
+}
+.single-left-rsvp {
+  float: none;
+  width: 100%;
+}
+.single-right-rsvp {
+  float: none;
+  width: 100%;
+}
+.parents-thumb {
+  border-left: 0 solid #f0394d;
+  border-right: 0 solid #f0394d;
+}
+.single-parents-thumb a {
+  display: block;
+  position: relative;
+  border-right: 2px solid #f0394d;
+  border-left: 2px solid #f0394d;
+  margin-bottom: 25px;
+}
+.couple-parents-list {
+  padding: 29px 0 0;
+}
+.couple-parent-tagline,
+.parents-list-area:last-child .couple-parent-tagline {
+  display: block;
+  float: none;
+  left: inherit;
+  margin-top: 0;
+  position: absolute;
+  right: 50%;
+  top: 0;
+  -webkit-transform: translateX(50%) translateY(-100%);
+  transform: translateX(50%) translateY(-100%);
+}
+
+}
+
+
+
+@media (max-width: 240px) {
+
+.single-header-content {
+  bottom: 0;
+  left: inherit;
+  position: absolute;
+  text-align: center;
+  top: inherit;
+  -webkit-transform: inherit;
+  transform: inherit;
+  width: 100%;
+}
+.stick-logo {
+  width: 75px;
+}
+
+}

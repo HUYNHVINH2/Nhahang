@@ -1,0 +1,2943 @@
+/*------------------------------------------------------------------
+.______    __  ___   ___  __   _______  ___________    ____ 
+|   _  \  |  | \  \ /  / |  | |   ____||   ____\   \  /   / 
+|  |_)  | |  |  \  V  /  |  | |  |__   |  |__   \   \/   /  
+|   ___/  |  |   >   <   |  | |   __|  |   __|   \_    _/   
+|  |      |  |  /  .  \  |  | |  |____ |  |        |  |     
+| _|      |__| /__/ \__\ |__| |_______||__|        |__|     
+
+
+@charset "utf-8";
+
+[Main Stylesheet]
+
+Project:    The heart
+Version:    0.1
+Last change:    17-5-2017
+Primary use:    The Heart Wedding Template  
+
+
+================== Font Famil Used =================
+
+font-family: 'Roboto', sans-serif;
+
+
+[Typography]
+
+Body:               18px 'Roboto', sans-serif;
+Paragraph:          'Roboto', sans-serif;
+
+Section Title:      48px/1 'Great Vibes', cursive;
+Section Description:    14px/1 'Poppins', sans-serif;
+
+/*==============================
+[Table of contents]
+-------------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------============================================================
+
+1. The Heart Typography 
+2. The Heart Main Menu
+3. The Heart Welcome Section
+4. The Heart Introduction Section 
+5. The Heart Memory
+6. The Heart Wedding Palace 
+7. The Heart Attending Content 
+8. The Heart Lovely Gallery
+9. The Heart jurnal 
+10. The Heart Footer
+11. The Heart magnific Pop Up Init
+12. The Heart Owl Carousel Custom
+
+
+
+	==================The Heart Inner Page Start==============
+1. The Heart Time Line Page 
+2. The Heart His Story
+3. The Heart Her Story
+4. The Heart Groomsman And Bride Maid
+5. The Heart Gift Registry
+6. The Heart Engagement Inner Page 
+7. The Heart Accommodation Inner Page 
+8. The Heart RSVP  
+9. The Heart Journal With Side Bar 
+10.The Heart Single Journal page 
+
+
+
+
+=============================================================--------------------------------------------------------------*/
+
+
+/*====================================================================== 
+		1. The Heart Typography 
+====================================================================================*/
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 1.5;
+	color: #96327D;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	overflow-x: hidden;
+	background-repeat: repeat;
+	background-position: center center;
+	background-size: 100%;
+}
+
+iframe{
+	border: none;
+}
+a, b, div, ul, li{
+	-webkit-tap-highlight-color: rgba(0,0,0,0); 
+	-webkit-tap-highlight-color: transparent; 
+	-moz-outline-: none;
+}
+a,
+a:hover,
+a:focus,
+a:active {
+	color: red;
+}
+a:focus,
+a:active,
+input,
+input:hover,
+input:focus,
+input:active,
+textarea,
+textarea:hover,
+textarea:focus,
+textarea:active{
+-moz-outline: none;
+outline: none;
+}
+	img:not([draggable]), embed, object, video{
+	max-width: 100%;
+	height: auto;
+}
+a,
+a:active,
+a:focus,
+a:hover,
+a:visited {
+	text-decoration: none;
+	outline: 0;
+	color: #222222;
+}
+img {
+	border: none;
+	max-width: 100%;
+}
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none
+}
+
+h1,h2,h3,h4,h5,h6,a,ul,li{
+	line-height: 1;
+}
+.clear-both:before, 
+.clear-both:after{
+	display: table;
+	content: "";
+	clear: both;
+}
+.section-padding {
+	padding: 150px 0;
+}
+.the-heart-introduction-section.section-padding {
+	padding: 150px 0 0 0;
+}
+
+.the-heart-memoragble-days-section.section-padding {
+	padding: 150px 0 0 0 ;
+}
+.the-heart-you-are-attending-section.section-padding {
+	padding: 70px 0 70px;
+}
+.the-heart-wedding-jurnal-section.section-padding {
+    padding: 65px 0 83px 0;
+}
+.the-heart-groomsman-section.section-padding {
+	padding: 100px 0 43px 0;
+}
+.the-heart-gift-registry-section.section-padding {
+    padding: 100px 0 83px 0;
+}
+.the-heart-single-blog-post-section.section-padding {
+	padding: 150px 0 120px 0;
+}
+.content-margin-top {
+	margin-top: 80px;
+}
+.the-heart-spilt-container {
+	width: 50%;
+	float: left;
+}
+.the-heart-welcome-tbl {
+	height: 100vh;
+	width: 100%;
+}
+.the-heart-welcome-tbl-c {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+.the-heart-tbl {
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+.the-heart-tbl-c {
+	left: 50%;
+	position: absolute;
+	top: 55%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+}
+.the-heart-section-heading {
+	text-align: center;
+	position: relative;
+	z-index: 6;
+	margin-bottom: 70px;
+}
+.the-heart-section-heading h4 {
+	font-size: 1.333em;
+	margin: 0;
+	margin-bottom: 18px;
+}
+.the-heart-section-heading h2 {
+	margin: 0;
+	font-size: 2.667em;
+}
+.the-heart-btn.simple-btn {
+	color: #96327D;
+	font-weight: 400;
+	font-size: 1.333em;
+	position: relative;
+}
+.the-heart-btn.simple-btn:before {
+	position: absolute;
+	content: "\f178";
+	top: 50%;
+	right: -42px;
+	font-family: 'FontAwesome';
+	transform: translateY(-50%);
+}
+.the-heart-btn-holder  {
+	margin-top: 100px;
+}
+.the-heart-btn-holder {
+	position: relative;
+	text-align: center;
+}
+.the-heart-btn.pink-btn {
+	width: 220px;
+	height: 50px;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	border-radius: 25px;
+	background-color: #96327d;
+	display: inline-block;
+	text-align: center;
+	line-height: 50px;
+	color: #FFFFFF;
+	font-size: 1em;
+	font-weight: 400;
+}
+
+#prelaoder {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 999999999999;
+	background-color: #FCF5E4;
+	background-image: url(img/preloader.gif);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+/* Body Background List */
+body.the-heart-default-body {
+	background-image: url(img/the-heart-body-bg.png);
+}
+body.the-heart-journal-body-bg {
+	background-image: url(img/journal-body-bg.png);
+}
+body.the-heart-timeline-body {
+	background-image: url(img/timeline-body-bg.jpg);
+}
+body.the-heart-rsvp-body {
+	background-image: url(img/rsvp-body-bg.jpg);
+}
+body.the-heart-his-story-body {
+	background-image: url(img/his-storey-bg.jpg);
+}
+body.the-heart-her-story-body {
+	background-image: url(img/her-Story-bg.png);
+}
+body.the-heart-gift-registry-body {
+	background-image: url(img/gift-registry-body.jpg);
+}
+body.the-heart-engagement-body {
+	background-image: url(img/engagement-storey-body.png);
+}
+body.the-heart-bridemaid-body {
+	background-image: url(img/bride-maid-body-bg.jpg);
+}
+body.the-heart-groomsman-body {
+	background-image: url(img/groomsman-body-bg.jpg);
+}
+
+/* Graet Vides Fonts */
+h1,h2,h3,h4 {
+	font-family: 'Great Vibes', cursive;
+	font-weight: 700;
+}
+.the-heart-time ,
+.the-heart-time-txt,
+.the-heart-gift-registry-single-item figure figcaption a,
+.inner-footer .the-heart-footer-content h5 ,
+.the-heart-single-married-time p ,
+.the-heart-like-and-comment li ,
+.the-heart-social-list-2 li a ,
+.the-heart-social-list-2 li p {
+	font-family: 'Great Vibes', cursive;
+	font-weight: 700;
+}
+
+/*==============================================================
+			The Heart Start 
+=========================================================================================*/
+
+
+/* ===========================================================
+			2. The Heart Main Menu
+============================================================================= */
+
+.the-heart-menu-and-logo-section {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 9;
+	box-shadow: 0 5px 10px rgba(0,0,0,.1);
+	background-color: rgba(255,255,255,.6);
+	transition: all 0.4s;
+}
+.the-heart-overly .the-heart-menu-and-logo-section{
+	background-color:rgba(255,255,255,1);
+}
+.the-heart-logo img {
+  	width: 70%;
+}
+.sticky-menu {
+   	box-shadow: 0 5px 10px rgba(0,0,0,.1);
+   	background-color: rgba(255,255,255,1);
+   	z-index:99;
+}
+.the-heart-logo {
+    padding: 20px 0;
+    transition: all 0.4s;
+}
+header.the-heart-menu-and-logo-section.sticky-menu .the-heart-logo {
+    padding: 10px 0;
+}
+header.the-heart-menu-and-logo-section.sticky-menu .the-heart-main-meun ul li a {
+    padding: 25px 0;
+}
+/*#coming-soon-bg-header .the-heart-menu-and-logo-section {
+  	background-color: #fff;
+}
+*/
+#coming-soon-bg-header .the-heart-welcome-section::before {
+  	background-color: #000;
+  	content: "";
+ 	height: 100%;
+  	left: 0;
+  	opacity: 0.6;
+  	position: absolute;
+  	top: 0;
+  	width: 100%;
+  	z-index: -1;
+}
+
+.the-heart-main-meun {
+	text-align: right;
+}
+.the-heart-main-meun ul li {
+	display: inline-block;
+	position: relative;
+}
+.the-heart-main-meun ul li a {
+	color: #96327d;
+	display: block;
+	font-size: 0.95em;
+	font-weight: 400;
+	margin: 0 11px;
+	padding: 35px 0;
+	text-transform: capitalize;
+	transition: all 0.4s ease 0s;
+}
+.the-heart-main-meun i {
+    transform: rotate(-90deg);
+    transition: all 0.4s;
+    top: 2px;
+    position: relative;
+}
+
+.the-heart-main-meun ul li:hover i{
+	transform: rotate(0deg);
+}
+.the-heart-logo a {
+    display: inline-block;
+}
+.menu-toggle {
+  	display: none;
+}
+
+ul.dropdown {
+  background-color: #fff;
+  border-top: 3px solid #96327d;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.176);
+  left: 0;
+  opacity: 0;
+  padding:0;
+  position: absolute;
+  text-align: center;
+  top: 88px;
+  transform: rotateX(90deg);
+  transform-origin: center top 0;
+  transition: all 0.4s ease 0s;
+  visibility: hidden;
+  width: 185px;
+}
+
+ul.dropdown li {
+  border-bottom: 1px solid #ccc;
+  display: block;
+}
+ul.dropdown li a {
+  font-size: 0.838em;
+  margin: 0;
+  padding: 15px 10px;
+  text-align: left;
+  transition: all 0.4s ease 0s;
+}
+ul.dropdown li a:hover{
+	background-color: #96327D;
+	color: #fff;
+}
+ul.dropdown li:last-child{
+	border: none;
+}
+
+.the-heart-main-meun ul li:hover ul.dropdown{
+	transform: rotate(0);
+	visibility: visible;
+	opacity: 1;
+}
+
+header.the-heart-menu-and-logo-section.sticky-menu ul.dropdown{
+	top: 66px;
+}
+header.the-heart-menu-and-logo-section.sticky-menu ul.dropdown li a{
+	padding: 15px 10px;
+}
+
+
+/* ===========================================================
+			3. The Heart Welcome Section
+============================================================================= */
+
+.the-heart-welcome-section {
+	position: relative;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	text-align: center;
+	z-index: 2;
+	height: 100vh;
+	width: 100%;
+}
+.the-heart-welcome-section::before {
+	background: #fff none repeat scroll 0 0;
+	content: "";
+	height: 100%;
+	left: 0;
+	opacity: 0.6;
+	position: absolute;
+	width: 100%;
+	z-index: -1;
+}
+
+
+.the-heart-welcome-section.black-overly .the-heart-welcome-content {
+  	color: #fff;
+}
+.the-heart-slider:before {
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.7);
+	z-index: 1;
+}
+.the-heart-welcome-floral-bg {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.the-heart-slider .owl-prev {
+	border-radius: 50%;
+	font-size: 40px;
+	height: 350px;
+	line-height: 46px;
+	position: absolute;
+	left:0px;
+	top: 50%;
+	transform: translateY(-50%);
+	transition: all 0.4s ease 0s;
+	width: 50px;
+	z-index: 3;
+	opacity: 0;
+}
+.slider-version:hover .the-heart-slider .owl-prev{
+	opacity: 1;
+	left: 50px;
+}
+
+.the-heart-slider .owl-next {
+  	border-radius: 50%;
+  	font-size: 40px;
+  	height: 350px;
+  	line-height: 46px;
+  	position: absolute;
+  	right:0px;
+  	top: 50%;
+  	transform: translateY(-50%);
+  	transition: all 0.4s ease 0s;
+  	width: 50px;
+  	z-index: 3;
+  	opacity: 0;
+}
+
+.slider-version:hover .the-heart-slider .owl-next{
+	opacity: 1;
+	right: 50px;
+}
+.the-heart-welcome-floral-bg:before ,
+.the-heart-welcome-floral-bg:after {
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 0;
+	height: 230px;
+	width: 100%;
+	background-image: url(img/floral-top.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	z-index: 3;
+}
+.the-heart-welcome-floral-bg:after {
+	top: inherit;
+	bottom: 0;
+	height: 249px;
+	background-image: url(img/floral-bottom.png);
+}
+.the-heart-welcome-content {
+	position: relative;
+	z-index: 10;
+	margin-bottom: 25px;
+}
+#coming-soon-bg-header .the-heart-welcome-content {
+  color: #fff;
+}
+.the-heart-welcome-content h1 {
+	font-size: 6.667em;
+	margin: 0;
+	margin-bottom: 11px;
+	font-weight: 700;
+}
+.the-heart-welcome-content h4 {
+	margin: 0;
+	font-size: 1.667em;
+	margin-bottom: 57px;
+	font-weight: 400;
+}
+.the-heart-floral-txt {
+	position: relative;
+}
+.the-heart-floral-txt:before ,
+.the-heart-floral-txt:after {
+	position: absolute;
+	content: "";
+	top: -30px;
+	left: 0;
+	height: 20px;
+	width: 100%;
+	background-image: url(img/floeal-txt-bg-1.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.the-heart-floral-txt:after {
+	background-image: url(img/floeal-txt-bg-2.png);
+	top: inherit;
+	bottom: -20px;
+}
+.the-heart-floral-txt h3 {
+	margin: 0;
+	font-size: 1.333em;
+	font-weight: 700;
+}
+
+.black-overly .the-heart-floral-txt h3{
+	color: #fff;
+}
+
+.the-heart-date-couuntdown {
+	position: absolute;
+	bottom: 25px;
+	left: 50%;
+	width: 66.66667%;
+	z-index: 9;
+	margin: 0 auto;
+	-webkit-transform: translateX(-50%);
+	        transform: translateX(-50%);
+}
+.the-heart-timer-single:last-child:before {
+	display: none;
+}
+.the-heart-timer-single:last-child {
+	margin: 0;
+	padding: 0;
+}
+.the-heart-timer {
+	float: left;
+	height: 120px;
+	width: 120px;
+	border-radius: 100%;
+	border: 1px dotted #96327D;
+	display: table;
+}
+.the-heart-timer-single {
+	display: inline-block;
+	position: relative;
+	margin: 0 50px 0 0;
+}
+.the-heart-timer-single:before {
+	position: absolute;
+	content: ":";
+	top: 50%;
+	left: 113%;
+	color: #96327D;
+	font-size: 4.000em;
+	line-height: 1;
+	vertical-align: middle;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+	font-weight: 900;
+}
+.the-heart-welcome-section.black-overly #heart_countdown {
+	color: #FFFFFF;
+}
+.the-heart-welcome-section.black-overly .the-heart-timer {
+    border: 1px solid #ffffff;
+}
+.the-heart-welcome-section.black-overly .the-heart-timer-single:before {
+	color: #ffffff;
+}
+
+/*Counter*/
+
+.dash {
+	display: inline-block;
+	position: relative;
+	text-align: center;
+	font-family: 'Great Vibes', cursive;
+	font-weight: 700;
+	margin-top: 22px;
+}
+.dash .digit {
+  float: left;
+  font-size: 2.667em;
+  height: 45px;
+  line-height: 1;
+  position: relative;
+  text-align: center;
+  width: auto;
+  margin-bottom: 6px;
+}
+
+.the-heart-single-counter h3 {
+  margin-bottom: 0;
+  text-transform: none;
+  font-size: 1em;
+}
+.the-heart-single-counter h2 {
+  line-height: 1;
+  margin-bottom: 10px;
+}
+
+.minutes_dash .digit:first-child,
+.seconds_dash .digit:first-child {
+  margin-left: 8px;
+}
+
+
+
+.the-heart-single-slider {
+  	background-position: top center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	height: 100vh;
+  	position: relative;
+  	width: 100%;
+  	z-index: 1;
+}
+
+.black-overly:before {
+  	background: #000;
+  	position: absolute;
+  	content: "";
+  	width: 100%;
+  	height: 100%;
+  	left: 0;
+  	opacity: .5;
+  	z-index: 1;
+}
+
+
+/*v6*/
+canvas {
+  	position: absolute;
+  	width: 100%;
+  	height: 100%;
+  	left: 50%;
+  	top: 50%;
+  	transform: translate(-50%, -50%);
+  	z-index: 1;
+}
+
+
+
+/*v7*/
+
+.bg_heart {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: 2;
+ }
+
+.heart_7 {
+    position: absolute;
+    top: -50%;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -m-transform: rotate(-45deg);
+    transform: rotate(-45deg)
+}
+
+.heart_7:before {
+    position: absolute;
+    top: -50%;
+    left: 0;
+    display: block;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    border-radius: 100%;
+}
+
+.heart_7:after {
+    position: absolute;
+    top: 0;
+    right: -50%;
+    display: block;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    border-radius: 100%;
+}
+
+
+
+@keyframes love_7 {
+	0% {
+		top: 110%;
+	}
+}
+@-webkit-keyframes love_7 {
+	0% {
+		top: 110%;
+	}
+}
+
+
+
+/*v8*/
+
+.bubbles {
+ 	 position: absolute;
+  	top: 0;
+  	left: 0;
+  	height: 100%;
+  	width: 100%;
+  	pointer-events: none;
+  	overflow: hidden;
+}
+
+.bubble {
+  	position: absolute;
+ 	 z-index: 200;
+ 	 border-radius: 50%;
+}
+.bubble:nth-child(1) {
+  	top: 70%;
+  	left: 79%;
+  	height: 2vmin;
+  	width: 2vmin;
+  	-webkit-animation: love-burst 3s infinite 0s;
+          animation: love-burst 3s infinite 0s;
+ 	 box-shadow: inset 0 0 0 1vmin #fff;
+ 	 -webkit-transform: translate(0, 0.45em) scale(0);
+          transform: translate(0, 0.45em) scale(0);
+  	-webkit-transform-origin: center bottom;
+          transform-origin: center bottom;
+}
+.bubble:nth-child(2) {
+ 	top: 45%;
+ 	left: 77%;
+  	height: 6vmin;
+  	width: 6vmin;
+  	-webkit-animation: love-burst 3s infinite 0.15s;
+          animation: love-burst 3s infinite 0.15s;
+  	box-shadow: inset 0 0 0 3vmin #fff;
+  	-webkit-transform: translate(0, 0.85em) scale(0);
+          transform: translate(0, 0.85em) scale(0);
+  	-webkit-transform-origin: center bottom;
+          transform-origin: center bottom;
+}
+.bubble:nth-child(3) {
+  	top: 49%;
+  	left: 58%;
+  	height: 12vmin;
+  	width: 12vmin;
+  	-webkit-animation: love-burst 3s infinite 0.3s;
+          animation: love-burst 3s infinite 0.3s;
+  	box-shadow: inset 0 0 0 6vmin #fff;
+  	-webkit-transform: translate(0, 1.2em) scale(0);
+          transform: translate(0, 1.2em) scale(0);
+  	-webkit-transform-origin: center bottom;
+          transform-origin: center bottom;
+}
+.bubble:nth-child(4) {
+  	top: 67%;
+  	left: 24%;
+  	height: 8vmin;
+  	width: 8vmin;
+  	-webkit-animation: love-burst 3s infinite 0.45s;
+          animation: love-burst 3s infinite 0.45s;
+  	box-shadow: inset 0 0 0 4vmin #fff;
+ 	-webkit-transform: translate(0, 0.75em) scale(0);
+          transform: translate(0, 0.75em) scale(0);
+  	-webkit-transform-origin: center bottom;
+          transform-origin: center bottom;
+}
+.bubble:nth-child(5) {
+  	top: 31%;
+  	left: 39%;
+  	height: 18vmin;
+  	width: 18vmin;
+  	-webkit-animation: love-burst 3s infinite 0.6s;
+          animation: love-burst 3s infinite 0.6s;
+  	box-shadow: inset 0 0 0 9vmin #fff;
+  	-webkit-transform: translate(0, 0.2em) scale(0);
+          transform: translate(0, 0.2em) scale(0);
+  	-webkit-transform-origin: center bottom;
+          transform-origin: center bottom;
+}
+.bubble:nth-child(6) {
+  	top: 88%;
+  	left: 90%;
+  	height: 4vmin;
+  	width: 4vmin;
+  	-webkit-animation: love-burst 3s infinite 0.75s;
+          animation: love-burst 3s infinite 0.75s;
+  	box-shadow: inset 0 0 0 2vmin #fff;
+  	-webkit-transform: translate(0, 0.3em) scale(0);
+          transform: translate(0, 0.3em) scale(0);
+  	-webkit-transform-origin: center bottom;
+          transform-origin: center bottom;
+}
+.bubble:nth-child(7) {
+  	top: 88%;
+  	left: 47%;
+  	height: 20vmin;
+  	width: 20vmin;
+  	-webkit-animation: love-burst 3s infinite 0.9s;
+          animation: love-burst 3s infinite 0.9s;
+  	box-shadow: inset 0 0 0 10vmin #fff;
+  	-webkit-transform: translate(0, 0.6em) scale(0);
+          transform: translate(0, 0.6em) scale(0);
+  	-webkit-transform-origin: center bottom;
+          transform-origin: center bottom;
+}
+.bubble:nth-child(8) {
+  	top: 84%;
+  	left: 19%;
+  	height: 6vmin;
+  	width: 6vmin;
+  	-webkit-animation: love-burst 3s infinite 1.05s;
+          animation: love-burst 3s infinite 1.05s;
+  	box-shadow: inset 0 0 0 3vmin #fff;
+  	-webkit-transform: translate(0, 0.9em) scale(0);
+          transform: translate(0, 0.9em) scale(0);
+  	-webkit-transform-origin: center bottom;
+          transform-origin: center bottom;
+}
+.bubble:nth-child(9) {
+  	top: 23%;
+  	left: 76%;
+  	height: 9vmin;
+  	width: 9vmin;
+  	-webkit-animation: love-burst 3s infinite 1.2s;
+          animation: love-burst 3s infinite 1.2s;
+  	box-shadow: inset 0 0 0 4.5vmin #fff;
+  	-webkit-transform: translate(0, 1.2em) scale(0);
+          transform: translate(0, 1.2em) scale(0);
+  	-webkit-transform-origin: center bottom;
+          transform-origin: center bottom;
+}
+.bubble:nth-child(10) {
+  	top: 58%;
+  	left: 14%;
+  	height: 10vmin;
+  	width: 10vmin;
+  	-webkit-animation: love-burst 3s infinite 1.35s;
+          animation: love-burst 3s infinite 1.35s;
+  	box-shadow: inset 0 0 0 5vmin #fff;
+  	-webkit-transform: translate(0, 0.75em) scale(0);
+          transform: translate(0, 0.75em) scale(0);
+  	-webkit-transform-origin: center bottom;
+          transform-origin: center bottom;
+}
+.bubble:nth-child(11) {
+  	top: 29%;
+  	left: 84%;
+  	height: 1vmin;
+  	width: 1vmin;
+  	-webkit-animation: love-burst 3s infinite 1.5s;
+          animation: love-burst 3s infinite 1.5s;
+  	box-shadow: inset 0 0 0 0.5vmin #fff;
+  	-webkit-transform: translate(0, 1.1em) scale(0);
+          transform: translate(0, 1.1em) scale(0);
+  	-webkit-transform-origin: center bottom;
+          transform-origin: center bottom;
+}
+.bubble:nth-child(12) {
+  	top: 5%;
+  	left: 89%;
+  	height: 3vmin;
+  	width: 3vmin;
+  	-webkit-animation: love-burst 3s infinite 1.65s;
+          animation: love-burst 3s infinite 1.65s;
+  	box-shadow: inset 0 0 0 1.5vmin #fff;
+  	-webkit-transform: translate(0, 0.8em) scale(0);
+          transform: translate(0, 0.8em) scale(0);
+  	-webkit-transform-origin: center bottom;
+          transform-origin: center bottom;
+}
+.bubble:nth-child(13) {
+  	top: 77%;
+  	left: 96%;
+  	height: 11vmin;
+  	width: 11vmin;
+  	-webkit-animation: love-burst 3s infinite 1.8s;
+          animation: love-burst 3s infinite 1.8s;
+  	box-shadow: inset 0 0 0 5.5vmin #fff;
+  	-webkit-transform: translate(0, 0.15em) scale(0);
+          transform: translate(0, 0.15em) scale(0);
+  	-webkit-transform-origin: center bottom;
+          transform-origin: center bottom;
+}
+.bubble:nth-child(14) {
+  	top: 94%;
+  	left: 52%;
+  	height: 2vmin;
+  	width: 2vmin;
+  	-webkit-animation: love-burst 3s infinite 1.95s;
+          animation: love-burst 3s infinite 1.95s;
+  	box-shadow: inset 0 0 0 1vmin #fff;
+  	-webkit-transform: translate(0, 1.2em) scale(0);
+          transform: translate(0, 1.2em) scale(0);
+  	-webkit-transform-origin: center bottom;
+          transform-origin: center bottom;
+}
+.bubble:nth-child(15) {
+  	top: 66%;
+  	left: 10%;
+  	height: 15vmin;
+ 	width: 15vmin;
+  	-webkit-animation: love-burst 3s infinite 2.1s;
+          animation: love-burst 3s infinite 2.1s;
+  	box-shadow: inset 0 0 0 7.5vmin #fff;
+  	-webkit-transform: translate(0, 0.45em) scale(0);
+          transform: translate(0, 0.45em) scale(0);
+  	-webkit-transform-origin: center bottom;
+          transform-origin: center bottom;
+}
+.bubble:nth-child(16) {
+  top: 28%;
+  left: 29%;
+  height: 5vmin;
+  width: 5vmin;
+  -webkit-animation: love-burst 3s infinite 2.25s;
+          animation: love-burst 3s infinite 2.25s;
+  box-shadow: inset 0 0 0 2.5vmin #fff;
+  -webkit-transform: translate(0, 1.2em) scale(0);
+          transform: translate(0, 1.2em) scale(0);
+  -webkit-transform-origin: center bottom;
+          transform-origin: center bottom;
+}
+.bubble:nth-child(17) {
+  top: 18%;
+  left: 99%;
+  height: 2vmin;
+  width: 2vmin;
+  -webkit-animation: love-burst 3s infinite 2.4s;
+          animation: love-burst 3s infinite 2.4s;
+  box-shadow: inset 0 0 0 1vmin #fff;
+  -webkit-transform: translate(0, 0.8em) scale(0);
+          transform: translate(0, 0.8em) scale(0);
+  -webkit-transform-origin: center bottom;
+          transform-origin: center bottom;
+}
+.bubble:nth-child(18) {
+  top: 22%;
+  left: 70%;
+  height: 13vmin;
+  width: 13vmin;
+  -webkit-animation: love-burst 3s infinite 2.55s;
+          animation: love-burst 3s infinite 2.55s;
+  box-shadow: inset 0 0 0 6.5vmin #fff;
+  -webkit-transform: translate(0, 0.1em) scale(0);
+          transform: translate(0, 0.1em) scale(0);
+  -webkit-transform-origin: center bottom;
+          transform-origin: center bottom;
+}
+.bubble:nth-child(19) {
+  top: 92%;
+  left: 80%;
+  height: 12vmin;
+  width: 12vmin;
+  -webkit-animation: love-burst 3s infinite 2.7s;
+          animation: love-burst 3s infinite 2.7s;
+  box-shadow: inset 0 0 0 6vmin #fff;
+  -webkit-transform: translate(0, 0.1em) scale(0);
+          transform: translate(0, 0.1em) scale(0);
+  -webkit-transform-origin: center bottom;
+          transform-origin: center bottom;
+}
+.bubble:nth-child(20) {
+  top: 58%;
+  left: 40%;
+  height: 2vmin;
+  width: 2vmin;
+  -webkit-animation: love-burst 3s infinite 2.85s;
+          animation: love-burst 3s infinite 2.85s;
+  box-shadow: inset 0 0 0 1vmin #fff;
+  -webkit-transform: translate(0, 0.7em) scale(0);
+          transform: translate(0, 0.7em) scale(0);
+  -webkit-transform-origin: center bottom;
+          transform-origin: center bottom;
+}
+
+@-webkit-keyframes love-burst {
+  50%,
+    100% {
+    box-shadow: inset 0 0 0 0 red;
+    -webkit-transform: translate(0, 0) scale(1);
+            transform: translate(0, 0) scale(1);
+  }
+}
+
+@keyframes love-burst {
+  50%,
+    100% {
+    box-shadow: inset 0 0 0 0 red;
+    -webkit-transform: translate(0, 0) scale(1);
+            transform: translate(0, 0) scale(1);
+  }
+}
+.heart {
+  fill: #fff;
+  opacity: 0;
+}
+.bubble:nth-child(1) .heart {
+  -webkit-animation: love 3s forwards infinite 0s;
+          animation: love 3s forwards infinite 0s;
+  -webkit-transform: scale(0.5) rotate(-15deg);
+          transform: scale(0.5) rotate(-15deg);
+}
+.bubble:nth-child(2) .heart {
+  -webkit-animation: love 3s forwards infinite 0.15s;
+          animation: love 3s forwards infinite 0.15s;
+  -webkit-transform: scale(0.5) rotate(42deg);
+          transform: scale(0.5) rotate(42deg);
+}
+.bubble:nth-child(3) .heart {
+  -webkit-animation: love 3s forwards infinite 0.3s;
+          animation: love 3s forwards infinite 0.3s;
+  -webkit-transform: scale(0.5) rotate(-27deg);
+          transform: scale(0.5) rotate(-27deg);
+}
+.bubble:nth-child(4) .heart {
+  -webkit-animation: love 3s forwards infinite 0.45s;
+          animation: love 3s forwards infinite 0.45s;
+  -webkit-transform: scale(0.5) rotate(39deg);
+          transform: scale(0.5) rotate(39deg);
+}
+.bubble:nth-child(5) .heart {
+  -webkit-animation: love 3s forwards infinite 0.6s;
+          animation: love 3s forwards infinite 0.6s;
+  -webkit-transform: scale(0.5) rotate(-32deg);
+          transform: scale(0.5) rotate(-32deg);
+}
+.bubble:nth-child(6) .heart {
+  -webkit-animation: love 3s forwards infinite 0.75s;
+          animation: love 3s forwards infinite 0.75s;
+  -webkit-transform: scale(0.5) rotate(12deg);
+          transform: scale(0.5) rotate(12deg);
+}
+.bubble:nth-child(7) .heart {
+  -webkit-animation: love 3s forwards infinite 0.9s;
+          animation: love 3s forwards infinite 0.9s;
+  -webkit-transform: scale(0.5) rotate(-22deg);
+          transform: scale(0.5) rotate(-22deg);
+}
+.bubble:nth-child(8) .heart {
+  -webkit-animation: love 3s forwards infinite 1.05s;
+          animation: love 3s forwards infinite 1.05s;
+  -webkit-transform: scale(0.5) rotate(16deg);
+          transform: scale(0.5) rotate(16deg);
+}
+.bubble:nth-child(9) .heart {
+  -webkit-animation: love 3s forwards infinite 1.2s;
+          animation: love 3s forwards infinite 1.2s;
+  -webkit-transform: scale(0.5) rotate(-2deg);
+          transform: scale(0.5) rotate(-2deg);
+}
+.bubble:nth-child(10) .heart {
+  -webkit-animation: love 3s forwards infinite 1.35s;
+          animation: love 3s forwards infinite 1.35s;
+  -webkit-transform: scale(0.5) rotate(49deg);
+          transform: scale(0.5) rotate(49deg);
+}
+.bubble:nth-child(11) .heart {
+  -webkit-animation: love 3s forwards infinite 1.5s;
+          animation: love 3s forwards infinite 1.5s;
+  -webkit-transform: scale(0.5) rotate(-3deg);
+          transform: scale(0.5) rotate(-3deg);
+}
+.bubble:nth-child(12) .heart {
+  -webkit-animation: love 3s forwards infinite 1.65s;
+          animation: love 3s forwards infinite 1.65s;
+  -webkit-transform: scale(0.5) rotate(26deg);
+          transform: scale(0.5) rotate(26deg);
+}
+.bubble:nth-child(13) .heart {
+  -webkit-animation: love 3s forwards infinite 1.8s;
+          animation: love 3s forwards infinite 1.8s;
+  -webkit-transform: scale(0.5) rotate(-24deg);
+          transform: scale(0.5) rotate(-24deg);
+}
+.bubble:nth-child(14) .heart {
+  -webkit-animation: love 3s forwards infinite 1.95s;
+          animation: love 3s forwards infinite 1.95s;
+  -webkit-transform: scale(0.5) rotate(26deg);
+          transform: scale(0.5) rotate(26deg);
+}
+.bubble:nth-child(15) .heart {
+  -webkit-animation: love 3s forwards infinite 2.1s;
+          animation: love 3s forwards infinite 2.1s;
+  -webkit-transform: scale(0.5) rotate(-11deg);
+          transform: scale(0.5) rotate(-11deg);
+}
+.bubble:nth-child(16) .heart {
+  -webkit-animation: love 3s forwards infinite 2.25s;
+          animation: love 3s forwards infinite 2.25s;
+  -webkit-transform: scale(0.5) rotate(7deg);
+          transform: scale(0.5) rotate(7deg);
+}
+.bubble:nth-child(17) .heart {
+  -webkit-animation: love 3s forwards infinite 2.4s;
+          animation: love 3s forwards infinite 2.4s;
+  -webkit-transform: scale(0.5) rotate(-34deg);
+          transform: scale(0.5) rotate(-34deg);
+}
+.bubble:nth-child(18) .heart {
+  -webkit-animation: love 3s forwards infinite 2.55s;
+          animation: love 3s forwards infinite 2.55s;
+  -webkit-transform: scale(0.5) rotate(6deg);
+          transform: scale(0.5) rotate(6deg);
+}
+.bubble:nth-child(19) .heart {
+  -webkit-animation: love 3s forwards infinite 2.7s;
+          animation: love 3s forwards infinite 2.7s;
+  -webkit-transform: scale(0.5) rotate(-7deg);
+          transform: scale(0.5) rotate(-7deg);
+}
+.bubble:nth-child(20) .heart {
+  -webkit-animation: love 3s forwards infinite 2.85s;
+          animation: love 3s forwards infinite 2.85s;
+  -webkit-transform: scale(0.5) rotate(39deg);
+          transform: scale(0.5) rotate(39deg);
+}
+
+@-webkit-keyframes love {
+  50% {
+    fill: red;
+    opacity: 1;
+  }
+}
+
+@keyframes love {
+  50% {
+    fill: red;
+    opacity: 1;
+  }
+}
+
+
+
+
+/*v9*/
+
+.effect-text {
+  font-size: 50px;
+  color: #edf2f4;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+.single-text{
+	margin: 0;
+	font-size: 1.667em;
+	margin-bottom: 57px;
+	font-weight: 400;
+	color: #fff;
+}
+.version-9 .the-heart-floral-txt{
+	color: #fff;
+}
+.tiny-heart {
+  position: absolute;
+  opacity: 0;
+  background-color: #D90429;
+  box-shadow: 0px 0px 50px 4px rgba(239, 35, 60, 0.7);
+  animation: animated-heart infinite ease-in;
+}
+.tiny-heart:before, .tiny-heart:after {
+  content: '';
+  position: absolute;
+  border-radius: 50%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #D90429;
+}
+.tiny-heart:before {
+  transform: translateX(-50%);
+}
+.tiny-heart:after {
+  transform: translateY(-50%);
+}
+
+@keyframes animated-heart {
+  0% {
+    opacity: 0;
+    transform: translate(0, 0) rotate(45deg);
+  }
+  50% {
+    opacity: 1;
+    transform: translate(0, -40%) rotate(45deg);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(0, -1000%) rotate(45deg);
+  }
+}
+/*============================================================================== 
+			4. The Heart Introduction Section 
+========================================================================================================================*/
+
+.the-heart-introduction-wraper {
+	background-image: url(img/introduction-floral-bg.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.the-heart-intruduction-content-txt h3 {
+	margin: 0;
+	font-size: 2.667em;
+	margin-bottom: 6px;
+}
+.the-heart-intruduction-content-txt h4 {
+	font-size: 1em;
+	margin: 0;
+	margin-bottom: 30px;
+}
+.the-heart-intruduction-content-txt p {
+	margin: 0;
+	font-weight: 400;
+}
+.the-heart-intruduction-content-img {
+	text-align: right;
+}
+.the-heart-intruduction-content-img img {
+	width: 409px;
+	height: 409px;
+	border-radius: 100%;
+	background-color: #fdfafd;
+	border: 1px dotted #96327D;
+}
+.the-heart-intruduction-content-txt {
+    display: table-cell;
+    vertical-align: middle;
+}
+.the-heart-single-introduction:nth-child(even) .the-heart-spilt-container {
+	float: right;
+}
+.the-heart-single-introduction:nth-child(even) .the-heart-intruduction-content-img {
+	text-align: left;
+}
+.the-heart-single-introduction:nth-child(even) .the-heart-intruduction-content-txt {	
+	text-align: right;
+}
+
+
+/*============================================================================== 
+			 5. The Heart Memory
+========================================================================================================================*/
+
+
+.the-heart-memoragble-days-img img {
+	-webkit-mask-image: url(img/mask-img.png);
+	mask-image: url(img/mask-img.png);
+	-webkit-mask-repeat: no-repeat;
+	mask-repeat: no-repeat;
+	-webkit-mask-size: 60%;
+	mask-size: 60%;
+	-webkit-mask-position: center center;
+	mask-position: center center;
+	opacity: .5;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+}
+
+.the-heart-memoragble-days-content {
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.the-heart-memoragble-days-content-inner {
+	width: calc(100% - 100px);
+	margin: auto 0 0 0;
+}
+
+.the-heart-memoragble-days-content h2 {
+	margin: 0;
+	font-size: 2.667em;
+	margin-bottom: 30px;
+}
+.the-heart-memoragble-days-content h4 {
+	font-size: 1.333em;
+	margin: 0;
+	margin-bottom: 35px;
+}
+.the-heart-memoragble-days-content p {
+	margin: 0;
+	font-weight: 400;
+}
+.the-heart-memoragble-days-wraper {
+	position: relative;
+	margin-bottom: 96px;
+}
+
+.the-heart-memoragble-days-wraper:before {
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 50%;
+	height: 100%;
+	width: 61px;
+	background-image: url(img/memorable-days-spearetor.png);
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-transform: translateX(-50%);
+	        transform: translateX(-50%);
+}
+.the-heart-memoragble-days-wraper:nth-child(even) .the-heart-spilt-container {
+	float: right;
+}
+.the-heart-memoragble-days-wraper:nth-child(even) .the-heart-memoragble-days-content-inner {
+	margin: 0 0 0 auto;
+}
+
+
+
+/*=========================================================================== 
+		6. The Heart Wedding Palace 
+=========================================================================================*/
+.the-heart-wedding-venue-section {
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	padding: 240px 0 240px 0;
+	background-attachment: fixed;
+}
+.the-heart-wedding-venue-section:before {
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.7);
+}
+.the-heart-paper-effect-bg {
+	position: relative;
+}
+.the-heart-paper-effect-bg:before ,
+.the-heart-paper-effect-bg:after {
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 0;
+	height: 115px;
+	width: 100%;
+	background-image: url(img/paper-effect--top.png);
+	background-repeat: repeat-x;
+	background-position: top center;
+	background-size: contain;
+	z-index: 1;
+}
+.the-heart-paper-effect-bg:after {
+	top: inherit;
+	bottom: 0;
+	background-image: url(img/paper-effect--bottom.png);
+	background-position: bottom center;
+}
+.the-heart-wdding-venu-content {
+  background-image: url("img/wedding-palace-inner-bg.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin: 0 auto;
+  padding: 70px 43px;
+  position: relative;
+  text-align: center;
+  width: calc(100% - 140px);
+  z-index: 1;
+}
+.the-heart-wdding-venu-content h2 {
+	margin: 0;
+	font-size: 2.667em;
+}
+.the-heart-wedding-venue {
+	position: relative;
+	padding: 61px 0 65px 0;
+	margin-bottom: 22px;
+}
+.the-heart-wedding-venue:before ,
+.the-heart-wedding-venue:after {
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 21px;
+	background-image: url(img/weddin-venue-floral.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 50%;
+}
+.the-heart-wedding-venue:after {
+	top: inherit;
+	bottom: 0;
+}
+.the-heart-wedding-venue i {
+	font-size: 1.333em;
+	margin-bottom: 21px;
+}
+.the-heart-wedding-venue p {
+	margin: 0;
+	font-weight: 400;
+	font-style: italic;
+}
+.the-heart-wedding-palace-address {
+	margin-top: 44px;
+}
+.the-heart-wedding-palace-address h4 {
+	font-size: 2.667em;
+	margin: 0;
+	font-weight: 400;
+	margin-bottom: 23px;
+	font-family: inherit;
+}
+.the-heart-wedding-palace-address h5 ,
+.the-heart-wedding-palace-address h6 {
+	margin: 0;
+	font-size: 1em;
+	font-weight: 400;
+	margin-bottom: 23px;
+}
+.the-heart-wedding-palace-address h6 {
+	margin: 0
+}
+.the-heart-wdding-venu-content p {
+	margin: 0;
+	font-weight: 400;
+}
+
+
+
+/*=============================================================================
+		7. The Heart Attending Content 
+=====================================================================================================*/
+
+
+.the-heart-attending-content {
+  background: #fff none repeat scroll 0 0;
+  display: table;
+  margin: 0 auto;
+  width: calc(100% - 120px);
+  position: relative;
+  z-index: 0;
+}
+.the-heart-attending-content::before {
+  background-image: url("img/1.png");
+  background-repeat: no-repeat;
+  content: "";
+  height: 118px;
+  left: -13px;
+  position: absolute;
+  top: -16px;
+  width: 293px;
+}
+.the-heart-attending-content::after {
+  background-image: url("img/2.png");
+  background-repeat: no-repeat;
+  bottom: 0;
+  content: "";
+  height: 100px;
+  position: absolute;
+  right: 0;
+  width: 206px;
+}
+.the-heart-attending-content-inner {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+.the-heart-attending-content-inner:before {
+  border: 1px solid #F26D7E;
+  content: "";
+  position: absolute;
+  width: 90%;
+  height: 90%;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  z-index: -1;
+}
+.the-heart-attending-content-inner:after {
+  border: 1px dashed #F26D7E;
+  content: "";
+  position: absolute;
+  width: 89%;
+  height: 89%;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  z-index: -1;
+}
+.the-heart-attending-content h2 {
+	font-size: 2.5em;
+	margin: 0;
+	margin-bottom: 14px;
+}
+/*.the-heart-attending-content h2 {
+  font-size: 1.875em;
+  margin: 0 0 14px;
+}*/
+.the-heart-attending-content-inner-top h3{
+   font-size: 1.1em;
+   margin-bottom: 75px;
+}
+.the-heart-attending-content p {
+   font-weight: 400;
+   margin: 0 0 30px;
+   font-size: 0.875em;
+}
+.the-heart-attending-form {
+	width: calc(100% - 136px);
+	margin: 0 auto;
+	padding: 50px 80px;
+	background-image: url(img/attending-form-bg.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: center center;
+}
+.the-heart-attending-form label {
+	display: block;
+	color: #FFFFFF;
+	font-size: 1em;
+	font-weight: 400;
+	text-align: center;
+	text-transform: capitalize;
+	margin: 0;
+	margin-bottom: 14px;
+}
+.the-heart-attending-form input[type="text"] {
+	width: 100%;
+	height: 40px;
+	border: 1px solid #FFFFFF;
+	margin-bottom: 15px;
+	border-radius: 0px;
+	background-color: transparent;
+	padding: 0 15px;
+	color: #FFFFFF;
+}
+.the-heart-attending-form select {
+	  -moz-appearance: none;
+	  -webkit-appearance: none;
+	  background: rgba(0, 0, 0, 0) url("img/shape.png") no-repeat scroll 100% center;
+	  border: 1px solid #ffffff;
+	  color: #fff;
+	  display: block;
+	  height: 40px;
+	  margin: 0 auto 36px;
+	  width: 85px;
+	  cursor: pointer;
+	  padding: 5px;
+}
+/*.the-heart-attending-form select {
+  -moz-appearance: none;
+ 
+  border: 1px solid #333;
+  border-radius: 3px;
+  box-shadow: none;
+  color: #fff;
+  font-size: 0.875em;
+  height: 40px;
+  padding: 0 10px;
+  width: 90%;
+}*/
+.the-heart-attending-form select option {
+	text-align: center;
+	background-color: #96327D;
+}
+
+.the-heart-attending-form select#the_heart_attending_event {
+	width: 179px;
+}
+.the-heart-attending-form input[type="submit"] {
+	display: block;
+	margin: 0 auto;
+	width: 240px;
+	height: 50px;
+	-webkit-border-radius: 23px/23px 23px 24px 24px;
+	-moz-border-radius: 23px/23px 23px 24px 24px;
+	border-radius: 23px/23px 23px 24px 24px;
+	background-color: #fff;
+	color: #96327D;
+	font-size: 1.333em;
+	text-align: center;
+	line-height: 50px;
+	text-transform: capitalize;
+	border: 0px solid;
+	font-weight: 400;
+}
+.contact-alert-message {
+	width: 100%;
+	text-align: center;
+	padding: 15px 0px 0px;
+	color: #fff;
+	text-align: center;
+}
+#mail_success,
+#mail_fail {
+	display: none;
+	color: red;
+}
+
+
+
+/*============================================================================ 
+		8. The Heart Lovely Gallery 
+====================================================================================================*/
+
+.the-heart-lovely-gallery-section {
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	padding: 240px 0;
+	background-attachment: fixed;
+}
+.the-heart-lovely-gallery-section:before {
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(255,255,255,.7);
+}
+.the-heart-lovely-gallery-page {
+	padding: 100px 0;
+}
+#the-heart-gallery .the-heart-paper-effect-bg:before {
+	background-image: url(img/paper-effect--top-gallery.png);
+}
+
+#the-heart-gallery .the-heart-paper-effect-bg:after {
+	background-image: url(img/paper-effect--bottom-gallery.png);
+}
+
+.the-heart-single-gallery img{
+	-webkit-mask-image: url(img/gallery-mask.png);
+	mask-image: url(img/gallery-mask.png);
+	-webkit-mask-repeat: no-repeat;
+	mask-repeat: no-repeat;
+	-webkit-mask-size: 100% 100%;
+	mask-size: 100% 100%;
+	-webkit-mask-position: center center;
+	mask-position: center center;
+	width: 100%;
+}
+
+.the-heart-single-gallery {
+	position: relative;
+	overflow: hidden;
+}
+.the-heart-single-gallery figcaption {
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50% , -50%);
+	z-index: 1;
+	opacity: 0;
+	transition: all .4s linear;
+}
+.the-heart-single-gallery figcaption a {
+	display: block;
+	text-align: center;
+	color: #96327D;
+	font-size: 6.667em;
+	font-weight: 100;
+}
+.the-heart-gallery-item {
+	padding: 15px;
+}
+.the-heart-single-gallery:before {
+	position: absolute;
+	content: "";
+	top: 20px;
+	left: 20px;
+	right: 20px;
+	bottom: 20px;
+	background: rgba(255,255,255,.9);
+	z-index: 1;
+	opacity: 0;
+	transition: all .4s linear;
+	border: 1px solid #96327D;
+	transform: scale3d(1.4,1.4,1);
+}
+.the-heart-single-gallery::after {
+  color: #96327d;
+  content: "+";
+  font-size: 60px;
+  font-weight: 100;
+  left: 50%;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.4s ease 0s;
+  width: 10px;
+  z-index: 1;
+}
+.the-heart-single-gallery:hover::after{
+	opacity: 1;
+}
+.the-heart-single-gallery:hover:before {
+	opacity: 1;
+	transform: scale3d(1,1,1);
+}
+
+
+
+/*========================================================================= 
+			9. The Heart jurnal 
+========================================================================================================*/
+
+.the-heart-wedding-jurnal-footer {
+	margin-top: 20px;
+}
+.the-heart-single-journal figure img {
+	mask-image: url(img/journal-img-mask.png);
+	-webkit-mask-image: url(img/journal-img-mask.png);
+	mask-repeat: no-repeat;
+	-webkit-mask-repeat: no-repeat;
+	mask-position: center center;
+	-webkit-mask-position: center center;
+	mask-size: 100% 100%;
+	-webkit-mask-size: 100% 100%;
+	width: 100%;
+}
+
+.the-heart-single-journal figure {
+	position: relative;
+	overflow: hidden;
+	display: block;
+}
+.the-heart-single-journal figcaption {
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50% , -50%);
+	width: 100%;
+	text-align: center;
+	z-index: 2;
+	opacity: 0;
+	transition: all .4s linear;
+}
+.the-heart-single-journal figcaption a h4 {
+	color: #96327D;
+	font-size: 2.000em;
+	display: inline-block;
+	margin: 0;
+}
+.the-heart-wedding-jurnal-footer h5 {
+	font-weight: 700;
+	text-transform: capitalize;
+	font-size: 1.333em;
+	margin: 0;
+	position: relative;
+	padding-bottom: 3px;
+	margin-bottom: 28px; 
+}
+.the-heart-wedding-jurnal-footer h5:before {
+	position: absolute;
+	content: "";
+	bottom: -14px;
+	left: 0;
+	width: 100%;
+	height: 13px;
+	background-image: url(img/journal-heading-bg.png);
+	background-repeat: no-repeat;
+	background-size: 50% 100%;
+	background-position: left center;
+}
+.the-heart-wedding-jurnal-footer h5 span {
+	font-size: 2em;
+	vertical-align: text-bottom;
+}
+.the-heart-wedding-jurnal-footer h6 {
+	font-size: 1.333em;
+	margin: 0;
+	font-weight: 700;
+	margin-bottom: 18px;
+	line-height: 1.3;
+}
+.the-heart-wedding-jurnal-footer p {
+	margin: 0;
+	font-weight: 400;
+	text-transform: capitalize;
+}
+.the-heart-single-journal figure:before {
+	position: absolute;
+	content: "";
+	top: 20px;
+	left: 20px;
+	right: 20px;
+	bottom: 20px;
+	background-color: rgba(255,255,255,.8);
+	z-index: 1;
+	opacity: 0;
+	transition: all .4s linear;
+	transform: scale3d(1.4,1.4,1);
+	border: 1px solid #96327D;
+}
+.the-heart-single-journal figure:hover figcaption {
+	opacity: 1;
+	top: 50%;
+}
+.the-heart-single-journal figure:hover:before {
+	opacity: 1;
+	transform: scale3d(1,1,1);
+}
+#the-heart-journal-grid .the-heart-single-journal {
+	padding: 0 15px;
+	margin-bottom: 30px;
+}
+
+/*============================================================================== 
+		10. The Heart Footer 
+======================================================================================================*/
+
+.the-heart-footer-section {
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	padding: 300px 0;
+}
+/*.the-heart-footer-section > div {
+	height: 719px;
+}*/
+
+.the-heart-footer-content {
+	text-align: center;
+	position: relative;
+	z-index: 3;
+}
+.the-heart-footer-content h2 {
+	margin: 0;
+	font-size: 4.000em;
+	margin-bottom: 30px;
+	font-weight: 700;
+}
+.the-heart-footer-content h5 {
+	margin: 0;
+	font-size: 1em;
+	font-style: italic;
+	font-weight: 400;
+}
+.inner-footer .the-heart-footer-content h5 {
+	font-size: 1.333em;
+	font-weight: 700;
+}
+
+/*============================================================================== 
+			11. The Heart magnific Pop Up Init
+========================================================================================================================*/
+
+/* padding-bottom and top for image */
+.mfp-no-margins img.mfp-img {
+	padding: 0;
+}
+/* position of shadow behind the image */
+.mfp-no-margins .mfp-figure:after {
+	top: 0;
+	bottom: 0;
+}
+/* padding for main container */
+.mfp-no-margins .mfp-container {
+	padding: 0;
+}
+
+
+/* 
+
+for zoom animation 
+uncomment this part if you haven't added this code anywhere else
+
+*/
+
+
+.mfp-with-zoom .mfp-container,
+.mfp-with-zoom.mfp-bg {
+	opacity: 0;
+	-webkit-backface-visibility: hidden;
+	-webkit-transition: all 0.3s ease-out; 
+	-moz-transition: all 0.3s ease-out; 
+	-o-transition: all 0.3s ease-out; 
+	transition: all 0.3s ease-out;
+}
+
+.mfp-with-zoom.mfp-ready .mfp-container {
+		opacity: 1;
+}
+.mfp-with-zoom.mfp-ready.mfp-bg {
+		opacity: 0.8;
+}
+
+.mfp-with-zoom.mfp-removing .mfp-container, 
+.mfp-with-zoom.mfp-removing.mfp-bg {
+	opacity: 0;
+}
+
+/*============================================================================== 
+			12. The Heart Owl Carousel Custom 
+========================================================================================================================*/
+
+
+#the-heart-gift-registy-gallery.owl-theme .owl-controls .owl-page span {
+	background-color: transparent;
+	border: 1px solid #96327D;
+	width: 25px;
+	height: 25px;
+	transition: all .4s linear;
+	border-radius: 12px 13px 13px 12px/12px 12px 13px 13px;
+}
+#the-heart-gift-registy-gallery.owl-theme .owl-controls .owl-page.active span {
+	width: 25px;
+	height: 25px;
+	border-radius: 12px 13px 13px 12px/12px 12px 13px 13px;
+	background-color: #96327d;
+	opacity: 1;
+	border: 1px solid #96327D;
+	transition: all .4s linear;
+}
+
+
+
+/*======================================================================================= 
+		The Heart Inner Page Start 
+============================================================================================================*/
+
+/*================================================================================== 
+		1. The Heart Time Line Page 
+========================================================================================================*/
+
+.the-heart-inner-welcome-section div.the-heart-tbl {
+	height: 450px;
+}
+.the-heart-inner-welcome-section {
+	position: relative;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	text-align: center;
+}
+.the-heart-inner-welcome-section:before {
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.6);
+}
+.the-heart-inner-welcome-content h1 {
+	margin: 0;
+	font-size: 4.000em;
+	font-weight: 700;
+}
+.the-heart-inner-welcome-content.heading-v-2 h1 {
+	display: inline-block;
+}
+
+.the-heart-timeline-section {
+	position: relative;
+	margin: 150px 0;
+}
+
+.the-heart-timelinne-heading h2 {
+	font-size: 2.667em;
+	margin: 0;
+	margin-bottom: 12px;
+}
+.the-heart-timelinne-heading h3{
+	margin: 0;
+	font-size: 2.000em;
+	font-style: italic;
+	font-weight: 400;
+}
+.the-heart-timelinne-heading {
+	margin-bottom: 80px;
+	text-align: center;
+}
+.the-heart-timeline-content {
+	padding: 0 15px;
+}
+.the-heart-timeline-content.the-heart-first-para p span { 
+	padding: 0 0 0 70px;
+}
+.the-heart-timeline-content p {
+	margin: 0;
+	line-height: 1.7;
+	text-align: justify;
+}
+.the-heart-single-timeline-content {
+	position: relative;
+	padding: 0 0 102px;
+	margin-bottom: 128px;
+}
+.the-heart-single-timeline-content:last-child {
+	margin: 0;
+}
+.the-heart-single-timeline-content:before {
+	position: absolute;
+	content: "";
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	height: 37px;
+	width: 398px;
+	background-image: url(img/time-line-post-separetor.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: contain;
+	display: none;
+}
+
+
+/*============================================================== 
+		2. The Heart His Story
+=====================================================================================*/
+
+.the-heart-inner-welcome-content h3 {
+	font-size: 1.667em;
+	margin: 0;
+	margin-bottom: 16px;
+}
+.the-heart-inner-welcome-content.heading-v-2 h3 {
+	display: inline-block;
+	margin: 0 13px 0 0;
+}
+.the-heart-story-section {
+	position: relative;
+}
+.the-heart-story-content {
+	padding: 0 15px;
+}
+.the-heart-story-content p {
+	margin: 0;
+}
+.the-heart-story-content p span {
+	font-weight: 400;
+}
+
+/*=================================================================== 
+		3. The Heart Her Story 
+==================================================================================*/
+
+.the-heart-storey-section-v2 {
+	position: relative;
+}
+
+
+/*=============================================================================== 
+		4. The Heart Groomsman And Bride Maid
+=====================================================================================================*/
+
+.the-heart-all-groomsman {
+	text-align: center;
+}
+.the-heart-single-groomsman {
+/*	width: 33%;
+*/	display: inline-block;
+	margin-bottom: 58px;
+	padding: 0 15px;
+}
+.the-heart-single-groomsman.width-50:nth-child(odd) {
+	text-align: left;
+}
+.the-heart-single-groomsman figure img {
+	-webkit-mask-image: url(img/groomsman-mask.png);
+		mask-image: url(img/groomsman-mask.png);
+	-webkit-mask-repeat: no-repeat;
+		mask-repeat: no-repeat;
+	-webkit-mask-size: 100% 100%;
+		mask-size: 100% 100%;
+	-webkit-mask-position: center center;
+		mask-position: center center;
+}
+.the-heart-single-groomsman .the-heart-groomsman-bio {
+	text-align: center;
+	margin-top: 17px;
+}
+.the-heart-single-groomsman .the-heart-groomsman-bio h3 {
+	margin: 0;
+	font-size: 1.667em;
+	margin-bottom: 14px;
+}
+.the-heart-single-groomsman .the-heart-groomsman-bio h5 {
+	margin: 0;
+	font-size: 1em;
+	font-weight: 400;
+	text-transform: capitalize;
+}
+.the-heart-groomsman-section {
+	position: relative;
+}
+.the-heart-single-groomsman figure {
+	position: relative;
+	overflow: hidden;
+}
+.the-heart-single-groomsman figure:before {
+	position: absolute;
+	content: "";
+	top: 20px;
+	left: 20px;
+	right: 20px;
+	bottom: 20px;
+	border: 1px solid #96327D;
+	background-color: rgba(255,255,255,.9);
+	transition: all .4s linear;
+	z-index: 1;
+	transform: scale3d(1.4,1.4,1.4);
+	opacity: 0;
+}
+.the-heart-single-groomsman figure::after {
+  color: #96327D;
+  content: "+";
+  font-size: 55px;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 10px;
+  z-index: 1;
+  opacity: 0;
+  transition: all 0.4s;
+  font-weight: 100;
+}
+.the-heart-single-groomsman figure:hover::after{
+	opacity: 1;
+}
+.the-heart-single-groomsman figure:hover:before {
+	opacity: 1;
+	transform: scale3d(1,1,1);
+}
+
+/*=============================================================================== 
+		5. The Heart Gift Registry 
+====================================================================================================*/
+
+
+.the-heart-gift-registry-single-item {
+  display: table;
+  height: 280px;
+  margin-bottom: 60px;
+  padding: 0 0px;
+  text-align: center;
+  width: 100%;
+}
+
+.the-heart-gift-registry-single-item figure {
+	display: table-cell;
+	vertical-align: middle;
+	position: relative;
+	overflow: hidden;
+}
+.the-heart-gift-registry-single-item figure img {
+	max-width: 100%;
+	width: auto !important;
+	display: inline-block !important;
+}
+.the-heart-gift-registry-single-item figure:before {
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-image: url(img/gift-shop-logo-bg.png);
+	background-size: 100% 100%;
+	z-index: -1;
+}
+.the-heart-gift-registry-single-item figure figcaption {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translate(-50%);
+	opacity: 0;
+	transition: all .4s linear;
+}
+.the-heart-gift-registry-single-item figure:hover figcaption {
+	opacity: 1;
+	bottom: 29px;
+}
+.the-heart-gift-registry-single-item figure figcaption a {
+	color: #FFFFFF;
+	font-size: 1.333em;
+	display: block;
+	width: 120px;
+	height: 50px;
+	border-radius: 25px;
+	background-color: #96327d;
+	text-align: center;
+	line-height: 50px;
+}
+
+
+/*============================================================================= 
+		6. The Heart Engagement Inner Page 
+==========================================================================================================*/
+
+.the-heart-engagement-section .the-heart-timelinne-heading {
+	margin-bottom: 50px;
+}
+.the-heart-engagement-section .the-heart-timelinne-heading h2 {
+	margin: 0;
+}
+.the-heart-engagement-section .the-heart-timeline-content {
+	padding: 0;
+}
+.the-heart-engagement-section .the-heart-single-timeline-content {
+	margin-bottom: 166px;
+}
+.the-heart-engagement-section .the-heart-single-timeline-content:last-child {
+	margin: 0;
+}
+
+
+/*============================================================================= 
+		7. The Heart Accommodation Inner Page 
+===============================================================================================================*/
+
+.the-heart-accommodation-section.section-padding {
+	padding: 150px 0 0 0;
+	position: relative;
+	margin: 0 0 -50px 0;
+	z-index: 0;
+}
+.the-heart-accommodation-heading {
+	text-align: center;
+}
+.the-heart-accommodation-heading h2 {
+	margin: 0;
+	font-size: 2.667em;
+	margin-bottom: 48px;
+}
+.the-heart-accommodation-post-bg {
+	height: 700px;
+	width: 100%;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	position: relative;
+	opacity: .7;
+}
+
+.the-heart-accommodation-post-bg:before,
+.the-heart-accommodation-post-bg:after {
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 49px;
+	background-image: url(img/accommodation-post-bg-top.jpg);
+	background-repeat: repeat-x;
+	background-size: contain;
+	background-position: top center;
+}
+.the-heart-accommodation-post-bg:after {
+	background-image: url(img/accommodation-post-bg-bottom.jpg);
+	top: inherit;
+	bottom: 0;
+	left: 0;
+	background-position: bottom center;
+	height: 40px;
+}
+.the-heart-accommodation-content p {
+	margin: 0;
+}
+.the-heart-accommodation-content {
+	margin-bottom: 75px;
+}
+.the-heart-single-accommodation {
+	margin-bottom: 129px;
+}
+.the-heart-single-accommodation:last-child {
+	margin: 0;
+}
+
+/*============================================================================== 
+		8. The Heart RSVP  
+=============================================================================================================*/
+
+.the-heart-attending-form-section-inner {
+	position: relative;
+}
+.the-heart-inner-attending-form {
+	width: calc(50% - 70px);
+	margin: 0 auto;
+}
+.the-heart-attending-content-inner-2 {
+	text-align: center;
+}
+.the-heart-attending-content-inner-2 h2 {
+	margin: 0;
+	font-size: 2.667em;
+	margin-bottom: 13px;
+}
+.the-heart-attending-content-inner-2 p {
+	font-weight: 400;
+	margin: 0;
+	margin-bottom: 40px;
+}
+.the-heart-attending-content-inner-2 h5 {
+	margin: 0;
+	font-weight: 400;
+	font-size: 1em;
+}
+.the-heart-attending-content-inner-2 {
+	margin-bottom: 55px;
+}
+
+.the-heart-attending-form-2 {
+	text-align: center;
+	background-image: url(img/attending-form-bg-inner.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	padding: 108px 125px;
+}
+.the-heart-attending-form-2 label {
+	display: block;
+	margin: 0;
+	font-weight: 400;
+	margin-bottom: 15px;
+	text-transform: capitalize;
+}
+.the-heart-attending-form-2 input[type="text"] {
+	width: 100%;
+	height: 40px;
+	border: 1px solid #96327d;
+	margin: 0 auto;
+	border-radius: 0;
+	display: block;
+	margin-bottom: 36px;
+}
+.the-heart-attending-form-2 select {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	  background: rgba(0, 0, 0, 0) url("img/shape.png") no-repeat scroll 100% center;
+	  border: 1px solid #96327D;
+	  color: #96327D;
+	  display: block;
+	  height: 40px;
+	  margin: 0 auto 36px;
+	  width: 85px;
+	  cursor: pointer;
+	  padding: 5px;
+}
+.the-heart-attending-form-2 select#the_heart_attending_event {
+	width: 180px;
+}
+.the-heart-attending-form-2 input[type="submit"] {
+	font-size: 1.333em;
+	width: 240px;
+	height: 50px;
+	-webkit-border-radius: 23px 24px 24px 23px/23px 23px 24px 24px;
+	-moz-border-radius: 23px 24px 24px 23px/23px 23px 24px 24px;
+	border-radius: 23px 24px 24px 23px/23px 23px 24px 24px;
+	background-color: #96327d;
+	color: #fff;
+	border: 0px solid;
+	font-weight: 400;
+	text-transform: capitalize;
+}
+
+/*===================================================================================== 
+		9. The Heart Journal With Side Bar 
+==============================================================================================================*/
+
+.the-heart-jurnal-sidebar #the-heart-journal-grid {
+	width: 75%;
+	margin: 0 auto;
+	float: left;
+	padding: 0 15px 0 0;
+}
+.the-heart-sidebar {
+	width: 25%;
+	float: left;
+	margin: 0 auto;
+	padding: 0 0 0 15px;
+}
+.the-heart-sidebar-single-element {
+	margin-bottom: 90px;
+}
+.the-heart-sidebar-single-element h5 {
+	font-size: 1.333em;
+	margin: 0;
+	font-weight: 500;
+	text-transform: capitalize;
+	margin-bottom: 30px;
+}
+.the-heart-sidebar-single-element a {
+	display: block;
+}
+.the-heart-sidebar-single-element a p {
+	margin: 0;
+	color: #96327D;
+	text-shadow: 0px 0px 1px #96327D;
+	transition: all .2s linear;
+}
+.the-heart-sidebar-single-element a p:hover {
+	text-shadow: none;
+} 
+.the-heart-sidebar-menu ul li {
+	margin-bottom: 23px;
+}
+.the-heart-sidebar-menu ul li a {
+	color: #96327D;
+	text-transform: capitalize;
+	text-shadow: 0 0 1px #96327D;
+	transition: all .3s linear;
+}
+.the-heart-sidebar-menu ul li a:hover {
+	text-shadow: none;
+}
+.the-heart-sidebar-menu ul li:last-child {
+	margin: 0;
+}
+
+.the-heart-social-list ul li {
+	margin-bottom: 10px;
+}
+.the-heart-social-list ul li:last-child {
+	margin: 0;
+}
+.the-heart-social-list ul li a {
+	display: inline-block;
+	color: #FFFFFF;
+	font-weight: 400;
+	width: 148px;
+	height: 40px;
+	background-color: #96327d;
+	border: 1px solid #96327d;
+	text-transform: capitalize;
+	text-align: center;
+	line-height: 40px;
+	transition: all .4s ease-in;
+}
+.the-heart-social-list ul li a:hover {
+	background-color: transparent;
+	color: #96327D;
+}
+
+/*================================================================================ 
+		10. The Heart Single Journal page 
+=================================================================================================*/
+
+.the-heart-married-time {
+	margin-bottom: 55px;
+}
+.the-heart-married-time h2 {
+	margin: 0;
+	font-size: 2.667em;
+	margin-bottom: 18px;
+}
+.the-heart-single-married-time p {
+	margin: 0;
+	background-image: url(img/married-time-bg.png);
+	width: 200px;
+	height: 51px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	display: inline-block;
+	background-size: 100% 100%;
+	color: #F2F2F2;
+	font-size: 1.333em;
+	text-align: center;
+	line-height: 51px;
+}
+.the-heart-single-married-time p i {
+	padding: 0 10px 0 0;
+}
+.the-heart-blog-post-image {
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-image: url(img/single-blog-post-paper-bg.jpg);
+	height: 545px;
+	width: 100vw;
+	margin-left: -50vw;
+	margin-right: -50vw;
+	position: relative;
+	left: 50%;
+	right: 50%;
+	opacity: .7;
+	background-attachment: fixed;
+}
+.the-heart-blog-post-image:before ,
+.the-heart-blog-post-image:after {
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 45px;
+	background-image: url(img/journal-post-paper-top.png);
+	background-repeat: repeat-x;
+	background-size: contain;
+	background-position: top center;
+}
+.the-heart-blog-post-image:after {
+	top: inherit;
+	bottom: 0;
+	background-image: url(img/journal-post-paper-bottom.png);
+	background-position: bottom center;
+	height: 42px;
+}
+
+.the-heart-blog-single-post-content p {
+	margin: 0;
+	line-height: 1.8;
+	margin-bottom: 40px;
+}
+.the-heart-blog-single-post-content blockquote {
+	border-left: 0px;
+	font-weight: 400;
+	font-style: italic;
+	width: calc(100% - 70px);
+	padding: 0;
+	font-size: 1em;
+	margin: 45px 0 57px auto;
+}
+.alignright {
+	float: right;
+	clear: right;
+	padding-left: 53px;
+	padding-bottom: 53px;
+}
+.the-heart-single-post-wraper {
+	position: relative;
+	padding-bottom: 134px;
+	margin-bottom: 100px;
+}
+
+.the-heart-single-post-wraper:before {
+	position: absolute;
+	content: "";
+	bottom: 0;
+	left: 0;
+	background-image: url(img/jurnal-post-separetor.png);
+	width: 100%;
+	height: 38px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.the-heart-simple-lsit {
+	padding: 0 0 0 37px;
+	margin-bottom: 44px;
+}
+.the-heart-simple-lsit li {
+	position: relative;
+	margin-bottom: 22px;
+	padding-left: 30px;
+}
+.the-heart-simple-lsit li:last-child {
+	margin: 0;
+} 
+.the-heart-simple-lsit li:before {
+	position: absolute;
+	content: "\f111";
+	top: 0%;
+	left: 0%;
+	font-family: 'FontAwesome';
+}
+.the-heart-social-list-and-like-corner {
+	margin-top: 90px;
+}
+.the-heart-like-and-comment li {
+	display: inline-block;
+	font-size: 1.333em;
+	margin-right: 15px;
+	font-weight: 400;
+}
+.the-heart-like-and-comment li a {
+	color: #96327D;
+	font-size: 1em;
+	margin-right: 7px;
+}
+.the-heart-social-list-2 li a {
+	color: #96327D;
+	font-size: 1.333em;
+	font-weight: 400;
+	margin: 0 60px 0 0;
+}
+.the-heart-social-list-2 li p {
+	display: inline-block;
+	margin: 0;
+	font-size: 1.333em;
+	font-weight: 400;
+}
+.the-heart-social-list-2 li {
+	margin-bottom: 28px;
+}
+.the-heart-social-list-2 li:last-child {
+	margin: 0;
+}
+.the-heart-pinterset i {
+	color: #BA2209;
+}
+.the-heart-twitter i {
+	color: #14BEDD;
+}
+.the-heart-facebook i {
+	color: #2B65B3;
+}
+.the-heart-single-post-wraper {
+	position: relative;
+	padding-bottom: 134px;
+	margin-bottom: 100px;
+	margin-top: 80px;
+}
+
+.the-heart-single-post-wraper:before {
+	position: absolute;
+	content: "";
+	bottom: 0;
+	left: 0;
+	background-image: url(img/jurnal-post-separetor.png);
+	width: 100%;
+	height: 38px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.the-heart-commentor-img {
+	width: calc(8.3333% + 30px);
+	float: left;
+}
+
+.the-heart-commentor-comment {
+	width: calc(91.66667% - 100px);
+	float: left;
+}
+
+.the-heart-commentor-img figure img {
+	border-radius: 100%;
+	width: 100px;
+	height: 100px;
+	background-color: #fff;
+}
+
+.the-heart-like-and-replay li {
+	display: inline-block;
+	margin-right: 12px;
+}
+
+.the-heart-like-and-replay li p {
+	display: inline-block;
+	margin: 0;
+	font-size: 0.778em;
+}
+
+.the-heart-like-and-replay li a {
+	color: #96327D;
+	font-size: 0.778em;
+	margin-right: 8px;
+}
+
+.the-heart-commentor-comment p {
+	margin: 0;
+	margin-bottom: 20px;
+}
+
+.the-heart-single-comment {
+	margin-bottom: 40px;
+}
+
+.the-heart-single-comment.the-heart-comment-reply {
+	width: calc(100% - 100px);
+	margin: 0 0 40px auto;
+	padding-right: 200px;
+}
+.the-heart-comment-reply .the-heart-commentor-img {
+	width: calc(10.3333% + 30px);
+}
+.the-heart-comment-section {
+	margin-bottom: 91px;
+}
+.the-heart-comment-form-section h5 {
+	font-weight: 400;
+	margin: 0;
+	font-size: 1em;
+	margin-bottom: 32px;
+}
+.the-heart-comment-form input:not([type="submit"]) {
+	display: block;
+	width: calc(100% - 15px);
+	height: 50px;
+	border: 1px solid #96327D;
+	border-radius: 0;
+	padding: 0 20px;
+	font-weight: 400;
+	background-color: transparent;
+	margin-bottom: 20px;
+}
+.the-heart-comment-form input:last-child {
+	margin: 0;
+}
+.the-heart-comment-form textarea {
+	width: calc(100% - 15px);
+	resize: none;
+	border-radius: 0;
+	background-color: transparent;
+	border: 1px solid #96327D;
+	padding: 20px;
+	height: 190px;
+	font-weight: 400;
+	display: block;
+}
+.the-heart-comment-form input:not([type="submit"])::-webkit-input-placeholder ,
+.the-heart-comment-form textarea::-webkit-input-placeholder {
+	color: #96327D;
+	font-size: 0.778em;
+	font-weight: 300;
+}
+.the-heart-comment-form input:not([type="submit"])::-moz-placeholder ,
+.the-heart-comment-form textarea::-moz-placeholder { 
+	color: #96327D;
+	font-size: 0.778em;
+	font-weight: 300;
+}
+.the-heart-comment-form input:not([type="submit"]):-ms-input-placeholder ,
+.the-heart-comment-form textarea:-ms-input-placeholder { 
+	color: #96327D;
+	font-size: 0.778em;
+	font-weight: 300;
+}
+.the-heart-comment-form input:not([type="submit"]):-moz-placeholder , 
+.the-heart-comment-form textarea:-moz-placeholder { 
+	color: #96327D;
+	font-size: 0.778em;
+	font-weight: 300;
+}
+.the-heart-comment-form input[type="submit"] {
+	width: 98px;
+	height: 40px;
+	background-color: #96327d;
+	display: block;
+	margin: 0 auto;
+	text-transform: capitalize;
+	text-align: center;
+	line-height: 40px;
+	font-weight: 400;
+	font-size: 1em;
+	border: 0px solid;
+	border-radius: 0;
+	color: #FFFFFF;
+}
+.the-heart-comment-form-inner {
+	margin-bottom: 30px;
+}
+
+
+
+
+/*THE HEART GROOMSMAN SLIDER*/
+
+.the-heart-groomsman-slider.owl-carousel .owl-dots{
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+}
+.the-heart-groomsman-slider.owl-carousel .owl-dot {
+  background: transparent none repeat scroll 0 0;
+  border: 1px solid #96327D;
+  border-radius: 10px;
+  display: inline-block;
+  height: 10px;
+  margin-right: 10px;
+  transition: all 0.4s ease 0s;
+  width: 26px;
+}
+.the-heart-groomsman-slider.owl-carousel .owl-dot.active {
+  background: #96327D none repeat scroll 0 0;
+  height: 12px;
+  width: 12px;
+}
+.the-heart-groomsman-slider .owl-dot {
+  float: left;
+  margin-top: 10px;
+  width: 40px;
+}
+
+
+/*THE HEART GROOMSMAN SLIDER 2*/
+
+.the-heart-groomsman-slider-2.owl-carousel .owl-dots{
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+}
+.the-heart-groomsman-slider-2.owl-carousel .owl-dot {
+  background: transparent none repeat scroll 0 0;
+  border: 1px solid #96327D;
+  border-radius: 10px;
+  display: inline-block;
+  height: 10px;
+  margin-right: 10px;
+  transition: all 0.4s ease 0s;
+  width: 26px;
+}
+.the-heart-groomsman-slider-2.owl-carousel .owl-dot.active {
+  background: #96327D none repeat scroll 0 0;
+  height: 12px;
+  width: 12px;
+}
+.the-heart-groomsman-slider-2 .owl-dot {
+  float: left;
+  margin-top: 10px;
+  width: 40px;
+}
+
+
+/*THE HEART GIFT REGISTY GALLERY*/
+
+.the-heart-gift-registy-gallery.owl-carousel .owl-dots{
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+}
+.the-heart-gift-registy-gallery.owl-carousel .owl-dot {
+  background: transparent none repeat scroll 0 0;
+  border: 1px solid #96327D;
+  border-radius: 10px;
+  display: inline-block;
+  height: 10px;
+  margin-right: 10px;
+  transition: all 0.4s ease 0s;
+  width: 26px;
+}
+.the-heart-gift-registy-gallery.owl-carousel .owl-dot.active {
+  background: #96327D none repeat scroll 0 0;
+  height: 12px;
+  width: 12px;
+}
+.the-heart-gift-registy-gallery .owl-dot {
+  float: left;
+  margin-top: 10px;
+  width: 40px;
+}

@@ -1,0 +1,1597 @@
+@charset "utf-8";
+/*------------------------------------------------------------------
+[Main Stylesheet]
+
+Project:    Wedz
+Version:    0.1
+Last change:    01.03.2016
+Primary use:    Wedding Template  
+
+
+[Typography]
+
+Body:               16px 'Open Sans', sans-serif;
+Headers:            'Great Vibes', cursive;
+Section Title:      32/1.1 'Great Vibes', cursive;
+Section Heading:    15px/1.7 "Open Sans", arial, sans-serif;
+Body Text:          15px/1.7 "Open Sans", arial, sans-serif;
+
+-------------------------------------------------------------------*/
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    background-color: #fff;
+    color: #6a6a6a;
+}
+
+
+/* -----------------------------------------------------------------
+  Wedz typography setup
+-------------------------------------------------------------------*/
+a, a:active, a:focus, a:active {
+    text-decoration:none !important
+}
+a:focus {
+    outline:0px solid
+}
+a{
+    color: #F0394D;
+    font-size: 0.8em;
+}
+img {
+    max-width:100%;
+    border: none;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight:normal;margin:0 0 15px;
+}
+h1{
+    font-size: 3.813em;
+    font-family: 'Great Vibes', cursive;
+}
+
+h2{
+    color: #333333;
+    font-family: 'Great Vibes', cursive;
+    font-size: 2.000em;
+}
+h3{
+    color: #f0394d;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1.2em;
+}
+h4{
+    color: #010000;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+small{
+    color: #010000;
+    font-size: 0.8em;
+    font-weight: 300;
+    font-style: italic;
+}
+p {
+  color: #333333;
+  font-size: 15px;
+  line-height: 1.7;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+input{
+    -moz-box-sizing: border-box;
+     -ms-box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+     box-sizing: border-box;
+}
+#wedz-preloader {
+  background-color: #FCF5E4;
+  background-image: url("images/preloader.gif");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 999999;
+}
+.wedz-section {
+  background-color: #ffffff
+}
+.single-wedz-overley{
+  background: rgba(246, 142, 153, 0.8) none repeat scroll 0 0;
+  height: 100%;
+  opacity: 0;
+  left: 0;
+  z-index: 2;
+  top: 0;
+  position: absolute;
+  transform: scale(0);
+  transition: all 0.4s ease-in-out 0s;
+  -webkit-transform: scale(0);
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  width: 100%;
+}
+.wedz-section-header {
+  padding: 40px 26%;
+  position: relative;
+  text-align: center;
+  z-index: 2;
+}
+.wedz-section-header img{
+    margin: auto;
+}
+.wedz-section-header h2 {
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+.wedz-section-header h2:after {
+  background-color: #f0394d;
+  content: "";
+  height: 2px;
+  width: 50px;
+  display: block;
+  margin: auto;
+  margin-top: 15px;
+}
+.wedz-section-header p {
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+.section-padding{
+   padding: 50px 0;
+}
+.wedz-button:after {
+  width: 100%;
+  height: 0;
+  top: 50%;
+  left: 50%;
+  background: #fff;
+  opacity: 0;
+  -webkit-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+  -moz-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+  -ms-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+  transform: translateX(-50%) translateY(-50%) rotate(45deg);
+  content: '';
+  position: absolute;
+  z-index: -1;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.wedz-button {
+  background-color: transparent;
+  border: 3px solid #fff;
+  color: #fff;
+  z-index: 1;
+  display: inline-block;
+  font-size: 1.5em;
+  letter-spacing: 1px;
+  padding: 6px 50px;
+  position: relative;
+  text-transform: uppercase;
+  overflow: hidden;
+}
+.wedz-button:hover,
+.wedz-button:active,
+.wedz-button:focus {
+  color: #f0394d;
+}
+.wedz-button:hover:after,
+.wedz-button:active:after,
+.wedz-button:focus:after {
+  height: 260%;
+  opacity: 1;
+}
+.wedz-button:active:after {
+  height: 400%;
+  opacity: 1;
+}
+.wedz-button2{
+  color: #000000;
+  font-size: 1.250em;
+  display: inline-block;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-bottom: 1px solid #000;
+}
+.wedz-section-overley {
+  background-color: rgba(240, 57, 77, 0.8);
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 0;
+}
+.gold-overley.wedz-section-overley {
+  background-color: rgba(250, 248, 240, 0.5);
+}
+#hero_over_link {
+  background-color: transparent;
+  background-image: url("images/down_arrow.png");
+  background-position: center 97%;
+  background-repeat: no-repeat;
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+
+
+/* -----------------------------------------------------------------
+  Wedz Header Styles
+------------------------------------------------------------------*/
+#pixiefy-wedz-header-section {
+  background-color: rgba(106, 106, 106, 0.6);
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 9;
+}
+.single-header-content {
+  left: 50%;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.single-header-content img {
+    display: block;
+    margin: auto;
+}
+.single-header-content h1 {
+  margin-bottom: 0;
+  color: #FFF;
+}
+.single-header-content p {
+  color: #FFF;
+  font-size: 1.500em;
+  font-weight: 300;
+  text-transform: capitalize;
+}
+
+
+/* -----------------------------------------------------------------
+  Main Menu styles
+------------------------------------------------------------------*/
+.wedz-top-navigation {
+  min-height: 57px;
+  position: relative;
+  z-index: 999;
+}
+#pixiefy-wedz-main-menu {
+  background-color: #f0394d;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}.main-menu {
+  text-align: center;
+}
+.main-menu nav ul li {
+  display: inline-block;
+}
+.main-menu nav ul li a {
+  color: #fff;
+  display: inline-block;
+  padding: 20px 17px;
+  text-transform: uppercase;
+  background-color: transparent;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.main-menu nav ul li a:hover,
+.main-menu nav ul li.active-menu a {
+  background-color: rgba(0,0,0,0.2);
+}
+.fixed-menu .main-menu nav ul li a {
+  padding: 16px 17px;
+}
+#pixiefy-wedz-main-menu.fixed-menu {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+
+
+/* -----------------------------------------------------------------
+  Our Story styles
+------------------------------------------------------------------*/
+.ch-grid {
+  background-image: url("images/love-bite.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.ch-item {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  position: absolute;
+  display: block;
+  box-shadow: inset 0 0 0 12px rgba(246, 142, 153, 0.8), 0 1px 2px rgba(0,0,0,0.1);
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.ch-info {
+  display: table;
+  background: rgba(246, 142, 153, 0.8);
+  width: 100%;
+  height: inherit;
+  border-radius: 50%;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  -o-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-backface-visibility: hidden;
+}
+.ch-info h3 {
+  color: #fff;
+  display: table-cell;
+  font-size: 1.7em;
+  font-style: italic;
+  font-weight: 100;
+  text-align: center;
+  text-transform: capitalize;
+  vertical-align: middle;
+  width: 100%;
+}
+.ch-info p {
+  color: #fff;
+  opacity: 0;
+  -webkit-transition: all 1s ease-in-out 0.2s;
+  -moz-transition: all 1s ease-in-out 0.2s;
+  -o-transition: all 1s ease-in-out 0.2s;
+  -ms-transition: all 1s ease-in-out 0.2s;
+  transition: all 1s ease-in-out 0.2s;
+}
+.ch-info p a {
+  display: block;
+  color: #fff;
+  color: rgba(255,255,255,0.7);
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 9px;
+  letter-spacing: 1px;
+  padding-top: 4px;
+  font-family: 'Open Sans', Arial, sans-serif;
+}
+.ch-info p a:hover {
+    color: #fff222;
+    color: rgba(246, 142, 153, 0.8);
+}
+.ch-item:hover {
+    box-shadow: inset 0 0 0 1px rgba(246, 142, 153, 0.8), 0 1px 2px rgba(246, 142, 153, 0.8);
+}
+.ch-item:hover .ch-info {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -o-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
+}
+.ch-item:hover .ch-info p {
+  opacity: 1;
+}
+.ch-grid {
+  margin: 20px 0 0 0;
+  padding: 0;
+  list-style: none;
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+.ch-grid:after,
+.ch-item:before {
+  content: '';
+  display: table;
+}
+.ch-grid:after {
+  clear: both;
+}
+.ch-grid li {
+  width: 220px;
+  height: 220px;
+  position: relative;
+  display: inline-block;
+}
+.ch-grid li:first-child {
+  position: relative;
+  right: -15px;
+  z-index: 1;
+}
+.ch-grid li:last-child {
+  position: relative;
+  left: -15px;
+}
+
+
+
+
+/* -----------------------------------------------------------------
+  Love Life styles
+------------------------------------------------------------------*/
+
+#pixiefy-wedz-love-life.section-padding {
+  padding-top: 0;
+}
+.wedz-our-love-life-promo {
+  overflow: hidden;
+  padding-bottom: 50px;
+}
+.single-love-life-promo {
+    text-align: left;
+}
+.single-love-life-promo h3 {
+    margin-bottom: 25px;
+}
+
+
+
+/* -----------------------------------------------------------------
+  Counter styles
+------------------------------------------------------------------*/
+#pixiefy-wedz-counter {
+  background-image: url(images/pattern.png);
+  background-repeat: repeat;
+  -webkit-background-size: auto;
+  background-size: auto;
+  background-attachment: fixed;
+  position: relative;
+}
+#pixiefy-wedz-counter.section-padding {
+  padding-top: 120px;
+  padding-bottom: 90px;
+}
+.inner-wedz-counter {
+  position: relative;
+  z-index: 3;
+}
+.wedz-counter-main-content {
+    padding: 0 13%;
+}
+.single-wedz-counter {
+    text-align: center;
+}
+.single-wedz-counter h6 {
+  background-image: url("images/love.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  font-size: 2em;
+  font-weight: bold;
+  height: 114px;
+  line-height: 106px;
+  margin: auto;
+  width: 123px;
+  margin-bottom: 15px;
+}
+.single-wedz-counter span {
+  font-size: 1.188em;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.counter-end-tagline {
+  margin-top: 90px;
+}
+.counter-end-tagline h2 {
+  text-align: center;
+  font-size: 3.000em;
+  margin: 0;
+}
+
+
+
+/* -----------------------------------------------------------------
+  Family and Friends Introduction  styles
+------------------------------------------------------------------*/
+#pixiefy-wedz-family-friends-intro {
+    position: relative;
+}
+#pixiefy-wedz-family-friends-intro::before {
+  background-image: url("images/left-leaf.png");
+  content: "";
+  display: block;
+  height: 548px;
+  left: 0;
+  position: absolute;
+  top: 50%;
+  transform: translate(0px, -50%);
+  -moz-transform: translate(0px, -50%);
+  -webkit-transform: translate(0px, -50%);
+  -ms-transform: translate(0px, -50%);
+  -o-transform: translate(0px, -50%);
+  width: 169px;
+  z-index: -1
+}
+#pixiefy-wedz-family-friends-intro::after {
+  background-image: url("images/right-bottom-leaf.png");
+  content: "";
+  display: block;
+  height: 556px;
+  right: 0;
+  position: absolute;
+  bottom: 50px;
+  width: 166px;
+  z-index: -1
+}
+.parents-thumb {
+  background-color: #f6f6f6;
+  border-left: 2px solid #f0394d;
+  border-right: 2px solid #f0394d;
+  display: block;
+  float: left;
+  width: 74%;
+  position: relative;
+}
+.single-parents-thumb a{
+  display: block;
+  position: relative;
+}
+.single-parents-thumb a::before {
+  background-color: #f0394d;
+  content: "";
+  display: block;
+  height: 2px;
+  width: 20px;
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  transition: width 0.4s ease-in-out 0s;
+  -webkit-transition: width 0.4s ease-in-out 0s;
+}
+.single-parents-thumb a::after {
+  background-color: #f0394d;
+  content: "";
+  display: block;
+  height: 2px;
+  width: 20px;
+  position: absolute;
+  bottom: -2px;
+  left: -2px;
+  transition: width 0.4s ease-in-out 0s;
+  -webkit-transition: width 0.4s ease-in-out 0s;
+}
+.single-parents-thumb {
+    padding-left: 0;
+}
+.single-parents-thumb img{
+  width: 100%;
+}
+.couple-parent-tagline {
+  display: block;
+  float: none;
+  margin-top: 0;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  left: inherit;
+  transform: translateX(100%) translateY(-50%);
+  -webkit-transform: translateX(100%) translateY(-50%);
+}
+.parents-list-area:last-child .couple-parent-tagline {
+  transform: translateX(-100%) translateY(-50%);
+  -webkit-transform: translateX(-100%) translateY(-50%);
+  right: inherit;
+  left: 0;
+}
+.single-parents-thumb.reverse-parents-thumb a::before {
+  left: inherit;
+  right: -2px;
+}
+.single-parents-thumb.reverse-parents-thumb a::after {
+  left: inherit;
+  right: -2px;
+}
+.single-parents-thumb.reverse-parents-thumb {
+  padding-left: 15px;
+  padding-right: 0;
+}
+.single-parents-thumb a:hover .single-wedz-overley{
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
+}
+.single-parents-thumb a:hover::before {
+  width: calc(100% + 2px);
+}
+.single-parents-thumb a:hover::after {
+  width: calc(100% + 2px);
+}
+.overley-table {
+  display: table;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+.overley-inner-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+.overley-inner-cell h3 {
+  color: #fff;
+  line-height: 1.3;
+  margin: auto;
+  max-width: 98%;
+  text-align: center;
+  text-transform: capitalize;
+}
+.couple-parents-list > div:nth-child(2n) .parents-thumb, 
+.couple-parents-list > div:nth-child(2n) .couple-parent-tagline {
+  float: right;
+}
+.couple-parent-tagline h6 {
+  background-color: #f0394d;
+  color: #ffffff;
+  display: inline-block;
+  font-family: "Great Vibes",cursive;
+  font-size: 1.563em;
+  margin: 0;
+  padding: 10px 27px;
+}
+.couple-parents-list > div:first-child {
+  text-align: right;
+}
+.wedz-bridesmaids-groomsmen-column {
+  overflow: hidden;
+  padding-bottom: 10px;
+  padding-top: 50px;
+}
+.single-bridemaid-groommen {
+  background-color: #fff;
+  margin-bottom: 40px;
+  text-align: center;
+}
+#wedm{
+  height: 400px;
+}
+.single-bridemaid-groommen a {
+  display: block;
+  position: relative;
+}
+.single-bridemaid-groommen a::before {
+  background-color: #f0394d;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 74px;
+  left: -2px;
+  position: absolute;
+  width: 2px;
+  transition: height 0.4s ease-in-out 0s;
+  -webkit-transition: height 0.4s ease-in-out 0s;
+}
+.single-bridemaid-groommen a::after {
+  background-color: #f0394d;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 74px;
+  right: -2px;
+  left: inherit;
+  position: absolute;
+  width: 2px;
+  transition: height 0.4s ease-in-out 0s;
+  -webkit-transition: height 0.4s ease-in-out 0s;
+}
+.single-bridemaid-groommen a figure {
+  margin: 0;
+}
+.single-bridemaid-groommen a figure img {
+  width: 100%;
+  height: auto;
+}
+.single-bridemaid-groommen a figure figcaption {
+  border-bottom:2px solid #f0394d;
+  padding-bottom: 21px;
+  padding-top: 20px;
+}
+.single-bridemaid-groommen a figure figcaption h4 {
+  margin: 0;
+}
+.single-bridemaid-groommen a:hover::before,
+.single-bridemaid-groommen a:hover::after {
+  height: 100%;
+}
+.single-bridemaid-groommen figcaption {
+  position: relative;
+}
+.single-bridemaid-groommen figcaption h4,
+.single-bridemaid-groommen figcaption small {
+  position: relative;
+  z-index: 3;
+  transition: color 0.4s ease-in-out 0.4s;
+  -webkit-transition: color 0.4s ease-in-out 0.4s;
+}
+.caption-overley {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: block;
+  height: 0;
+  transition: height 0.4s ease-in-out 0.4s;
+  -webkit-transition: height 0.4s ease-in-out 0.4s;
+  background-color: #f0394d;
+}
+.single-bridemaid-groommen a:hover figcaption h4,
+.single-bridemaid-groommen a:hover figcaption small {
+  color: #ffffff;
+}
+.single-bridemaid-groommen a:hover figcaption .caption-overley {
+  height: 100%;
+}
+
+
+
+/* -----------------------------------------------------------------
+  Invite styles
+------------------------------------------------------------------*/
+#pixiefy-wedz-invite {
+  background-image: url(images/slide4.jpg);
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 80px;
+  background-attachment: fixed;
+  position: relative;
+}
+.inner-invitation-section {
+  text-align: center;
+}
+.wedz-invite-main-content {
+  position: relative;
+  z-index: 2;
+}
+.wedz-invite-main-content h2 {
+  font-size: 2.250em;
+  color: #fff;
+}
+.invite-button {
+  display: inline-block;
+    margin-top: 25px
+}
+
+
+
+
+/* -----------------------------------------------------------------
+  Wedding Ceremony styles
+------------------------------------------------------------------*/
+#pixiefy-wedz-wedding-ceremony {
+  position: relative;
+}
+#pixiefy-wedz-wedding-ceremony::after {
+  background-image: url("images/grass.png");
+  content: "";
+  display: block;
+  height: 86px;
+  width: 100%;
+}
+.wedding-ceremony-main-content {
+  float: right;
+  text-align: center;
+   width: 43%;
+  padding-bottom: 60px;
+  margin-top: 50px;
+}
+.wedding-ceremony-header-content header h4 {
+  font-size: 1.813em;
+  margin: 40px 0;
+}
+.wedding-ceremony-header-content header span {
+  color: #0c0c0c;
+  font-size: 1.438em;
+  font-family: 'Great Vibes', cursive;
+}
+.wedding-ceremony-header-content p {
+  font-size: 1.125em;
+  font-weight: 300;
+  letter-spacing: 1px;
+  margin-bottom: 40px;
+}
+.wedding-ceremony-footer-content img {
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.wedding-ceremony-footer-content p {
+  color: #000000;
+  font-size: 1.250em;
+  font-family: 'Great Vibes', cursive;
+  text-transform: capitalize;
+}
+.wedz-tree {
+  bottom: 0;
+  position: absolute;
+}
+
+
+
+
+/* -----------------------------------------------------------------
+  Gift Registration styles
+------------------------------------------------------------------*/
+#pixiefy-wedz-gift-registration {
+  background-attachment: fixed;
+  background-image: url("images/pattern.png");
+  background-repeat: repeat;
+  background-size: auto auto;
+  padding-bottom: 100px;
+  padding-top: 130px;
+  position: relative;
+}
+.gift-registration-main-content {
+  text-align: center;
+  position: relative;
+  z-index: 3;
+}
+.gift-registration-main-content h2 {
+  font-size: 2.250em;
+}
+.gift-reg-company-logo {
+  width: 75%;
+  margin: 60px auto auto;
+}
+.gift-reg-company-logo ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+.gift-reg-company-logo ul li img {
+  display: inline;
+  vertical-align: middle;
+  transition: opacity 0.4s ease-in-out 0s;
+  -webkit-transition: opacity 0.4s ease-in-out 0s;
+}
+.gift-reg-company-logo ul a:hover img {
+  opacity: 0.7;
+}
+#photostack-3{
+  margin-top: 50px;
+}
+
+
+
+
+/* -----------------------------------------------------------------
+  Wedding Party styles
+------------------------------------------------------------------*/
+#map-canvas {
+  height: 300px;
+}
+.inner-wedz-wedding-party {
+  text-align: center;
+}
+.top-content-wedding-party p {
+  margin-bottom: 30px;
+}
+.top-content-wedding-party > p:last-child {
+  margin: 0;
+}
+.nivo-lightbox-theme-default .nivo-lightbox-nav:hover {
+  background-color: transparent;
+  opacity: 1;
+}
+.gallery-thumb-wed-party ul li {
+  display: inline-block;
+  margin-right: 1.4%;
+  width: 32%;
+}
+.partystock-img {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  cursor: -moz-zoom-in; 
+  cursor: -webkit-zoom-in; 
+  cursor: zoom-in;
+}
+.single-blog-content .partystock-img {
+  cursor: pointer;
+}
+.single-wedz-photo-overley {
+  background: rgba(246, 142, 153, 0.4) none repeat scroll 0 0;
+  height: 100%;
+  opacity: 0;
+  left: 0;
+  z-index: 2;
+  top: 0;
+  position: absolute;
+  -webkit-transform: scale(0);
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  transform: scale(0);
+  transition: all 0.4s ease-in-out 0s;
+  width: 100%;
+}
+.partystock-img img {
+  transition: all 0.4s ease-in-out 0s;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+}
+.partystock-img:hover img {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.partystock-img:hover .single-wedz-photo-overley {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+.gallery-thumb-wed-party ul li:last-child {
+  margin: 0;
+}
+.gallery-thumb-wed-party ul li img{
+  width: 100%;
+}
+.signle-date-time-wed-party h6 {
+  color: #f0394d;
+  font-size: 1.188em;
+  letter-spacing: 1px;
+  margin: 0;
+}
+.signle-date-time-wed-party span {
+  color: #333333;
+  font-size: 0.750em;
+}
+.map-wedding-party {
+  position: relative;
+}
+.map-address-wed-party {
+  background-color: rgba(0, 0, 0, 0.6);
+  left: 50%;
+  padding: 20px 20px;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  width: 255px;
+}
+.map-address-wed-party h6 {
+  color: #ffffff;
+  font-size: 1.125em;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.map-address-wed-party p {
+  color: #fff;
+  font-size: 1.188em;
+  margin: 0;
+}
+
+
+
+
+/* -----------------------------------------------------------------
+  Our Blog styles
+------------------------------------------------------------------*/
+#pixiefy-wedz-our-blog {
+  padding-bottom: 60px;
+}
+.wedz-blog-main-content {
+  overflow: hidden;
+  padding-top: 50px;
+}
+.single-blog-content {
+  margin-bottom: 40px;
+}
+.single-blog-content figure {
+  margin: 0;
+}
+.single-blog-content figure figcaption header {
+  padding-top: 20px;
+}
+.single-blog-content figure figcaption header::after {
+  background-color: #b3b3b3;
+  content: "";
+  display: block;
+  height: 1px;
+  margin: 20px 0;
+  width: 30px;
+}
+.single-blog-content figure figcaption header h4 {
+  margin: 0;
+}
+.single-blog-content figure figcaption p {
+  font-size: .9em;
+}
+.footer-main-content {
+  background-image: url("images/bottom-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  height: 267px;
+  width: 50%;
+  margin:auto;
+}
+.our-blog-thumb img {
+  width: 100%;
+  height: auto;
+}
+#blog-header {
+  background-attachment: fixed;
+  background-image: url("images/counter-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 90px 0 50px;
+  position: relative;
+  z-index: 0;
+}
+#main-blog-page {
+  padding-bottom: 40px;
+  padding-top: 60px;
+}
+#main-blog-page .single-blog-content {
+  margin-bottom: 60px;
+}
+#main-blog-page .wedz-blog-main-content {
+  padding: 15px 5%;
+}
+#blog-header .wedz-section-header h2 {
+  color: #fff;
+  font-size: 3em;
+}
+#blog-header .wedz-section-header h2::after {
+  background-color: #ffffff;
+}
+#blog-header .wedz-section-header p {
+  color: #fff;
+  font-size: 1em;
+}
+.header-overley {
+  background-color: #000;
+  height: 100%;
+  left: 0;
+  opacity: 0.4;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+.single-blog-post {
+  position: relative;
+}
+.single-blog-post .wedz-section-header {
+  position: relative;
+  z-index: 3;
+}
+.single-blog-post h3 {
+  color: #fff;
+  font-size: 2em;
+  margin-top: 20px;
+}
+
+
+
+
+/* -----------------------------------------------------------------
+  Wedding Testimonial styles
+------------------------------------------------------------------*/
+#pixiefy-wedz-wedding-testimonial {
+  background-attachment: fixed;
+  background-image: url("images/pattern.png");
+  background-repeat: repeat;
+  background-size: auto auto;
+  padding: 100px 0;
+  position: relative;
+}
+#pixiefy-wedz-wedding-testimonial .single-wedz-counter span {
+  font-size: 1em;
+  color: #fff;
+}
+#pixiefy-wedz-wedding-testimonial .single-wedz-counter h6 {
+  background-image: none;
+  color: #ffffff;
+  height: inherit;
+  line-height: inherit;
+  margin: inherit;
+  width: inherit;
+  font-size: 1.6em;
+}
+#pixiefy-wedz-wedding-testimonial .wedz-counter-main-content {
+  padding: 0;
+  margin-top: 50px;
+}
+#pixiefy-wedz-wedding-testimonial .wedz-counter-main-content > div > div {
+  border-right: 1px solid #fff;
+  text-align: center;
+}
+#pixiefy-wedz-wedding-testimonial .wedz-counter-main-content > div > div:last-child{
+  border: none;
+}
+.inner-wedding-testimonial {
+  position: relative;
+  z-index: 3;
+}
+.wedz-testimonial-main-content {
+  overflow: hidden;
+  padding: 0 8%;
+  text-align: center;
+}
+.left-testimonial-thumb {
+  background-image: url("images/testimonial-thumb.jpg");
+  float: left;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  width: 40%;
+}
+.left-testimonial-thumb img {
+  width: 100%;
+  height: auto;
+}
+.wedz-testimonial-inner {
+  background-color: rgba(0, 0, 0, 0.7);
+  overflow: hidden;
+  position: relative;
+}
+.right-testimonial-data {
+  overflow: hidden;
+  padding: 50px 30px;
+  width: 60%;
+  float: right;
+}
+.right-testimonial-data header {
+  padding-bottom: 50px;
+}
+.right-testimonial-data header h4 {
+  color: #f03a4e;
+  margin: 0;
+}
+.right-testimonial-data header span {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 0.750em;
+}
+.right-testimonial-data p {
+  color: #ffffff;
+  font-size: 1.3em;
+  font-family: 'Great Vibes', cursive;
+}
+
+
+
+
+/* -----------------------------------------------------------------
+  Footer styles
+------------------------------------------------------------------*/
+#pixiefy-wedz-footer-section {
+  background-attachment: fixed;
+  background-image: url("images/footer-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 200px 0;
+  background-position: center;
+}
+.footer-main-content {
+  text-align: center;
+}
+.footer-main-content h6 {
+  font-size: 5.688em;
+  color: #fff;
+  font-weight: 800;
+}
+.footer-main-content h2 {
+  color: #fff;
+  font-size: 3.313em;
+}
+
+
+
+
+
+/* -----------------------------------------------------------------
+  Reservation Section styles 
+------------------------------------------------------------------*/
+#pixiefy-wedz-reservation-section {
+  background-attachment: fixed;
+  background-color: #f03a4e;
+  background-image: url("images/pattern.png");
+  position: relative;
+}
+.inner-reservation-section {
+  position: relative;
+  z-index: 3;
+}
+.single-left-rsvp {
+  float: left;
+  width: 49%;
+}
+.left-reservation-header h4 {
+  color: #fff;
+  margin: 0;
+}
+.left-reservation-header span {
+  color: #fff;
+}
+.right-form-reservation {
+  color: #fff;
+  margin-top: 12px;
+  width: 100%;
+}
+.single-form-item {
+  margin-bottom: 20px;
+  margin-right: 0;
+  position: relative;
+  width: 100%;
+}
+.single-right-rsvp {
+  float: right;
+  width: 49%;
+}
+.single-form-item input, 
+.single-form-item select,
+.single-form-item textarea {
+  background-color: #fff;
+  border: 0 solid;
+  color: #6a6a6a;
+  line-height: 1;
+  padding: 16px 12px;
+  width: 100%;
+}
+.single-form-item.full-width-item {
+  overflow: hidden;
+  padding-top: 20px;
+  text-align: center;
+  width: 100%;
+}
+.single-form-item textarea#wedz_message {
+  height: 241px;
+  line-height: 1.5;
+}
+.single-form-item input:focus, .single-form-item select:focus {
+  border: none;
+  outline: none !important;
+}
+.field_error {
+  border: 0 none;
+  bottom: 0;
+  color: red;
+  margin-top: 8px;
+  padding: 13px 10px;
+  position: absolute;
+  right: 0;
+  width: 35px;
+}
+.single-form-item input[type="submit"] {
+  text-transform: uppercase;
+  border: 0;
+  opacity: 1;
+}
+.single-form-item .wedz-button {
+  font-size: 1.5em;
+  padding: 10px 55px;
+}
+.single-form-item:last-child::after {
+  height: inherit;
+}
+.single-form-item select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  text-align: left;
+  padding: 12px;
+  background-image: url("images/down.png");
+  background-position: calc(100% - 15px) center;
+  background-repeat: no-repeat;
+}
+#pixiefy-wedz-reservation-section h2 {
+  color: #fff;
+}
+#mail_fail i {
+  color: #ff0000;
+  -o-animation: flash 3s ease 0s backwards;
+  -ms-animation: flash 3s ease 0s backwards;
+  -moz-animation: flash 3s ease 0s backwards;
+  -webkit-animation: flash 3s ease 0s backwards;
+  animation: flash 3s ease 0s backwards;
+}
+#mail_success i {
+  color: #2eb267;
+  -o-animation: flash 3s ease 0s backwards;
+  -ms-animation: flash 3s ease 0s backwards;
+  -moz-animation: flash 3s ease 0s backwards;
+  -webkit-animation: flash 3s ease 0s backwards;
+  animation: flash 3s ease 0s backwards;
+}
+@-webkit-keyframes flash {
+  0%, 50%, 100% {
+    opacity: 1;
+  }
+
+  25%, 75% {
+    opacity: 0;
+  }
+}
+
+@keyframes flash {
+  0%, 50%, 100% {
+    opacity: 1;
+  }
+
+  25%, 75% {
+    opacity: 0;
+  }
+}
+.flash {
+  -webkit-animation-name: flash;
+          animation-name: flash;
+}
+.contact-alert-message {
+  width: 100%;
+  text-align: center;
+  padding: 0 20px 50px;
+}
+
+
+
+/* -----------------------------------------------------------------
+  Others Mixed styles 
+------------------------------------------------------------------*/
+.photostack figcaption h2 {
+  color: #333;
+  font-size: 2em;
+  margin: 24px 0 0;
+}
+.stick-logo {
+  position: absolute;
+  width: 96px;
+  -webkit-transform: translate3d(0px, 0px, 0px);
+  transform: translate3d(0px, 0px, 0px);
+  left: 0;
+  opacity: 1;
+  z-index: 10;
+  top: 0;
+  transition: all 0.4s ease-in-out 0s;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+}
+
+body.home .stick-logo {
+  position: absolute;
+  width: 96px;
+  -webkit-transform: translate3d(0, -100%, 0);
+  transform: translate3d(0, -100%, 0);
+  left: 0;
+  opacity: 0;
+  z-index: -5;
+  top: 0;
+  transition: all 0.4s ease-in-out 0s;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+}
+body.home .logoSticked.stick-logo {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  opacity: 1;
+  z-index: 10;
+}
+#pixiefy-wedz-main-menu .container {
+  position: relative;
+}
+.single-popup-details {
+  background-color: #fff;
+  margin: auto;
+  width: 600px;
+  position: relative;
+}
+.single-popup-text {
+  padding: 35px 25px 25px;
+}
+.single-popup-text > h2 {
+  font-family: inherit;
+  margin-bottom: 25px;
+}
+.single-popup-text > p {
+  font-size: 1em;
+  line-height: 1.6;
+}
+.mfp-close-btn-in .mfp-close {
+  background: #3f3f46 none repeat scroll 0 0;
+  color: #fff;
+}
+.position-thumb h2 {
+  bottom: 5px;
+  font-family: inherit;
+  font-weight: 100;
+  left: 20px;
+  position: absolute;
+}
+.position-thumb {
+  position: relative;
+}
+.single-full-blog-post {
+  padding: 15px 5%;
+}
+.single-full-blog-post h2 {
+  font-family: inherit;
+  margin: 36px 0 25px;
+}
+.single-blog-content p {
+  font-size: 1em;
+  line-height: 1.7;
+}
+.single-blog-content blockquote {
+  border-left: 5px solid #f0394d;
+  font-size: 17.5px;
+  margin: 20px 0;
+  padding: 15px 20px;
+}
+.single-blog-content p {
+  margin-bottom: 23px;
+}
+.social-link-area li {
+  display: inline-block;
+  text-align: center;
+}
+.social-link-area a {
+  background-color: #fff;
+  border: 1px solid #6a6a6a;
+  border-radius: 50px;
+  color: #6a6a6a;
+  display: block;
+  font-size: 20px;
+  height: 50px;
+  line-height: 50px;
+  margin: 0 2px;
+  position: relative;
+  width: 51px;
+  z-index: 5;
+  transition: all 0.4s ease-in-out 0s;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+}
+.social-link-area a:hover {
+  background-color: #f0394d;
+  border: 1px solid #f0394d;
+  color: #fff;
+}
+.social-link-area {
+  margin-top: -25px;
+  text-align: center;
+}
+button.responsive-trigger::after {
+  background: #fff none repeat scroll 0 0;
+  box-shadow: 0 10px 0 #fff, 0 20px 0 #fff;
+  content: "";
+  height: 5px;
+  left: 16%;
+  position: absolute;
+  top: 10px;
+  width: 68%;
+}
+button.responsive-trigger {
+  background: rgba(0, 0, 0, 0.2) none repeat scroll 0 0;
+  border: medium none;
+  cursor: pointer;
+  float: right;
+  height: 45px;
+  outline: medium none;
+  overflow: hidden;
+  position: relative;
+  text-indent: -900em;
+  width: 48px;
+  display: none;
+}
+.single-person-inner {
+  display: inline-block;
+  height: 220px;
+  position: relative;
+  width: 220px;
+}
+.single-thumb-person {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  position: absolute;
+  display: block;
+  box-shadow: inset 0 0 0 12px rgba(240, 57, 77, 0.8), 0 1px 2px rgba(0,0,0,0.1);
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+#mail_success,
+#mail_fail {
+  display: none;
+}
+#pixiefy-wedz-reservation-section .wedz-section-header h2::after {
+  background-color: #fff;
+}
+@keyframes UpDownInfinit {
+  0% {
+      bottom: 10px;
+  }
+  50% {
+      bottom: 18px;
+  }
+  100% {
+      bottom: 10px;
+  }
+}
+@keyframes UpDownInfinit {
+  0% {
+      bottom: 10px;
+  }
+  50% {
+      bottom: 18px;
+  }
+  100% {
+      bottom: 10px;
+  }
+}
+.UpDownInfinit {
+  -webkit-animation-name: UpDownInfinit
+  animation-name: UpDownInfinit;
+}
+#hero_over_link::after {
+  bottom: 10px;
+  color: #fff;
+  content: "\f107";
+  display: block;
+  font-family: FontAwesome;
+  font-size: 40px;
+  left: 50%;
+  line-height: 1;
+  position: absolute;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+  z-index: 9999;
+  animation: 1s ease 0s normal none infinite running UpDownInfinit;
+  webkit-animation: 1s ease 0s normal none infinite running UpDownInfinit;
+}
+.wedz-blog-more {
+  margin-top: 30px;
+  text-align: center;
+}
+.wedz-blog-more .wedz-button {
+  border: 3px solid #6a6a6a;
+  color: #6a6a6a;
+}
+.wedz-blog-more .wedz-button::after {
+  background: #6a6a6a none repeat scroll 0 0;
+}
+.wedz-blog-more .wedz-button:hover,
+.wedz-blog-more .wedz-button:active,
+.wedz-blog-more .wedz-button:focus {
+  color: #fff;
+}
